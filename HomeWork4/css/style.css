@@ -5,20 +5,18 @@
 body {
 	background: #2eb2c6 url("../img/fond.png");
 	background-repeat: repeat-x;
-	
 }
 .conteiner {
 	position: relative;
 	width: 1000px;
 	margin: 0 auto;
 	background: white;
-	bottom-left: 0;
-	bottom-right:0;
-	color: #128aa7;
 }
 .header {
-	margin: 0 auto;
 	position: relative;
+	overflow: hidden;
+	clear: both;
+	/*margin: 0 auto;*/
 }
 .contact {
 	float: right;
@@ -26,36 +24,17 @@ body {
 	text-align: left;
 	width: 155px;
 	line-height: 1.5;
-	/*color: #128aa7;*/
 	padding-top: 10px;
 	font-family: Tahoma;
 	font-size: 12px;
-}
-.contries li {
-	list-style: none;
-	position: relative;
-	display: block;
-	text-align: center;
-	/*color: #128aa7;*/
-}
-li {
-	font-family: Tahoma;
-	font-size: 10px;
-	/*color: #128aa7;*/
-}
-.contries {
-	display: inline-block;
-	float: right;
-	clear: both;
-	font-color: #128aa7;
-	width: 500px;
-}
-/*.contries {
-	position: relative;
-    padding-bottom: 8px;
-}*/
-/*.contries p {
 	color: #128aa7;
-	text-align: center;
-	
 }
+.countries  {
+	display: inline-block;
+	list-style: none;
+}
+.countries p {
+	color: #128aa7;
+	font-size: 10px;
+	display: inline-block;
+	text-decoration: underline;
