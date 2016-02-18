@@ -51,6 +51,9 @@ ul.countries p {
 .countries a:visited {
 	color: #128aa7;
 }
+.countries a:active {
+	color: #128aa7;
+}
 .foto {
 	display: block;
 }
