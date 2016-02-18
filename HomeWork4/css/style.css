@@ -77,29 +77,17 @@ ul.menu:after {
 ul.menu > li {
     float: left;
     position: relative;
-    
+    text-align: left;
+	width: 143px;
     font-family: Tahoma;
 	font-size: 14px;
 }
 ul.menu > li:nth-child(1) {
 	text-align: center;
-	width: 140px;
-}
-ul.menu > li:nth-child(even) {
-	text-align: center;
-	width: 144px;
-}
-ul.menu > li:nth-child(5) {
-	text-align: center;
-	width: 143px;
-}
-ul.menu > li:nth-child(3) {
-	text-align: center;
-	width: 143px;
-}
-ul.menu > li:nth-child(7) {
-	text-align: left;
 	width: 142px;
+}
+ul.menu > li:nth-child(6) {
+	text-align: center;
 }
 ul.menu > li > a {
     display: block;
@@ -129,10 +117,12 @@ ul.submenu > li {
 }
 ul.submenu > li > a {
     display: block;
-    padding: 5px;
+    padding: 5px 5px 5px 10px;
     color: white;
     background-color: #303030;
     text-decoration: none;
+    text-align: left;
+
 }
 ul.submenu > li > a:hover {
     text-decoration: underline;
