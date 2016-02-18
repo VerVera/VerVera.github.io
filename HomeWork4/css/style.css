@@ -48,10 +48,10 @@ ul.countries p {
 	padding-bottom: 8px;
 	padding-right: 30px;
 }
-.countries a:visited {
+.countries a:active {
 	color: #128aa7;
 }
-.countries a:active {
+.countries a:visited {
 	color: #128aa7;
 }
 .foto {
@@ -77,13 +77,29 @@ ul.menu:after {
 ul.menu > li {
     float: left;
     position: relative;
-    width: 200px;
+    
     font-family: Tahoma;
 	font-size: 14px;
-
 }
 ul.menu > li:nth-child(1) {
 	text-align: center;
+	width: 140px;
+}
+ul.menu > li:nth-child(even) {
+	text-align: center;
+	width: 144px;
+}
+ul.menu > li:nth-child(5) {
+	text-align: center;
+	width: 143px;
+}
+ul.menu > li:nth-child(3) {
+	text-align: center;
+	width: 143px;
+}
+ul.menu > li:nth-child(7) {
+	text-align: left;
+	width: 142px;
 }
 ul.menu > li > a {
     display: block;
@@ -94,7 +110,6 @@ ul.menu > li > a {
     background-color: #303030;
     text-decoration: none;
     height: 23px;
-
 }
 ul.menu > li > a:hover {
     background-color: black;
@@ -102,7 +117,7 @@ ul.menu > li > a:hover {
 ul.submenu {
     display: none;
     position: absolute;
-    width: 200px;
+    width: 180px;
     top: 28px;
     left: 0;
     background-color: white;
