@@ -11,16 +11,17 @@ body {
 	width: 1000px;
 	margin: 0 auto;
 	background: white;
+	box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.75),
+				4px 0px 7px 0px rgba(0,0,0,0.35),
+				-4px 0px 7px 0px rgba(0,0,0,0.35);
 }
 .header {
+	height: 175px;
 	position: relative;
 	overflow: hidden;
-	clear: both;
-	/*margin: 0 auto;*/
 }
 .contact {
 	float: right;
-	clear: both;
 	text-align: left;
 	width: 155px;
 	line-height: 1.5;
@@ -29,12 +30,135 @@ body {
 	font-size: 12px;
 	color: #128aa7;
 }
-.countries  {
+ul.countries li {
 	display: inline-block;
 	list-style: none;
+	width: 55px;
+	text-align: center;
 }
-.countries p {
-	color: #128aa7;
+ul.countries p {
 	font-size: 10px;
-	display: inline-block;
-	text-decoration: underline;
+	/*color: #128aa7;*/
+	text-align: center;
+}
+.countries {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding-bottom: 8px;
+	padding-right: 30px;
+}
+.countries a:visited {
+	color: #128aa7;
+}
+.foto {
+	display: block;
+}
+ul.menu {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	width: 1000px;
+	border-bottom: 1px solid black;
+	box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.75);
+	z-index: 99;
+	opacity: 0.99;
+}
+ul.menu:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+    width: 200px;
+    font-family: Tahoma;
+	font-size: 14px;
+
+}
+ul.menu > li:nth-child(1) {
+	text-align: center;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 5px 10px  0 10px;
+    color: white;
+    font-family: Tahoma;
+	font-size: 14px;
+    background-color: #303030;
+    text-decoration: none;
+    height: 23px;
+
+}
+ul.menu > li > a:hover {
+    background-color: black;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 200px;
+    top: 28px;
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 9px 15px 0px rgba(0,0,0,0.75);
+    border-top: solid 1px #000;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 5px;
+    color: white;
+    background-color: #303030;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+.content {
+	width: 1000px;
+	overflow: hidden;
+	color: #424c43;
+	text-align: center;
+	line-height: 1.75;
+	font-family: Tahoma;
+	font-size: 14px;
+}
+.left {
+	width: 210px;
+	float: left;
+	background: #edeef0;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+	border-right: 1px solid;
+	border-color: #ccc;
+	z-index: 1;
+}
+.right {
+	width: 210px;
+	float: right;
+	background: #edeef0;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+	border-left: 1px solid;
+	border-color: #ccc;
+}
+.footer {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #ffffff;
+	width: 1000px;
+    margin: 0 auto;
+}
+.footer p {
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
