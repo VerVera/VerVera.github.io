@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: 'helvetica_neu';
+	src: url("../font/helveticaneuecyr-thin-webfont.ttf");
+}
+
+body {
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+.menu {
+	float: right;
+}
+.conteiner {
+	background: #075190 url("../img/fone.png") repeat-x;
+	overflow: auto;
+}
+ul.menu li {
+	display: inline-block;
+	list-style: none;
+	font-family: 'helvetica_neu', Arial;
+	line-height: 37px;
+	font-size: 14px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+ul.menu li a {
+text-decoration: none;
+}
+ul.menu p{
+	color: white;
+}
+ul.menu li img {
+	float: left;
+	margin: 5px 5px 5px 5px;
+
+}
