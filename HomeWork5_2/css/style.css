@@ -1,0 +1,42 @@
+body {
+  background: #CCC;
+}
+.conteiner {
+  margin: 50px auto;
+  width: 520px;
+}
+
+table {
+	width: 520px;
+  height: 550px;
+	border-collapse: collapse;
+	border: none;
+  border: 6px solid #CCC;
+  background: white;
+  color: white;
+}
+
+td {
+	border: 5px solid black;
+	padding: 0;
+}
+
+.b {
+  background: black;
+  color: black;
+}
+
+.r {
+  background: red;
+  color: red;
+}
+
+.y {
+  background: yellow;
+  color: yellow;
+}
+
+.s{
+  background: blue;
+  color: blue;
+}
