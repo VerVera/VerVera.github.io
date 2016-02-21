@@ -6,7 +6,6 @@
 	font-family: 'helvetica_neu';
 	src: url("../font/helveticaneuecyr-thin-webfont.ttf");
 }
-
 body {
 	background-image: url(../img/background.jpg);
 	background-repeat: no-repeat;
@@ -15,6 +14,7 @@ body {
 }
 .menu {
 	float: right;
+	margin-right: 20px;
 }
 .conteiner {
 	background: #075190 url("../img/fone.png") repeat-x;
@@ -23,21 +23,186 @@ body {
 ul.menu li {
 	display: inline-block;
 	list-style: none;
-	font-family: 'helvetica_neu', Arial;
+	font-family: 'helvetica_neu', Arial, sans-serif;
 	line-height: 37px;
 	font-size: 14px;
 	text-align: center;
 	padding-left: 10px;
 	padding-right: 10px;
+
 }
 ul.menu li a {
-text-decoration: none;
+	text-decoration: none;
 }
-ul.menu p{
+ul.menu p {
+	display: inline-block;
+	color: #60b5ed;
+}
+
+.rightmenu a p,
+.rightmenu2 a p,
+.active a p {
 	color: white;
 }
+
 ul.menu li img {
 	float: left;
 	margin: 5px 5px 5px 5px;
+	display: inline-block;
+}
+.active {
+	background: #65a8e4;
+	font-weight: bold;
+	color: white;
+}
+.rightmenu {
+	color: white;
+	font-weight: bold;
+	border-left: 1px solid #65a8e4;
+	height: 37px;
+}
+.rightmenu2 {
+	font-weight: bold;
+	background: rgba(80,176,220,1);
+    background: -webkit-linear-gradient(rgba(80,176,220,1) 0%, rgba(50,127,199,1) 100%);
+    background: -o-linear-gradient(rgba(80,176,220,1) 0%, rgba(50,127,199,1) 100%);
+    background: linear-gradient(rgba(80,176,220,1) 0%, rgba(50,127,199,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50b0dc', endColorstr='#327fc7', GradientType=0 );
+    border-right: 1px solid #65a8e4;
+    border-left: 1px solid #65a8e4;
+}
 
+.form {
+	width: 50%;
+  	height: 50%;
+  	margin: auto;
+ 	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
+  	text-align: center;
+  	font-family: 'helvetica_neu', Arial, sans-serif;
+ 
+}
+.cadastre h1 {
+	color: white;
+	font-size: 24px;
+	line-height: 63px;
+	border-bottom: 1px solid #3280c7;
+	margin-right: 57px;
+	margin-left: 57px;
+	background: rgba(0, 0, 0, 0.50);
+}
+.action {
+	margin-left: 57px;
+	margin-right: 57px; 
+	background: rgba(0, 0, 0, 0.50);
+}
+.facebook {
+	margin-top: 1px;
+	padding-top: 37px;
+	padding-bottom: 32px;
+
+}
+.facebook button p {
+	display: inline-block;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 9px;
+}
+.facebook button img {
+	padding: 5px 13px 5px 13px;
+	vertical-align: middle;
+	float: left;
+	border-right: 1px solid #455677;
+	box-shadow: 1px 0px 1px 0px rgba(84,128,217,1);
+}
+.facebook button {
+	background: #324983;
+	width: 276px;
+	border-radius: 5px 5px 5px 5px;
+	border-left: 1px solid #455677;
+	border-right: 1px solid #455677;
+	border-top: 1px solid #8895bd;
+	border-bottom: 1px solid #455677;
+}
+.facebook span {
+	font-weight: bold;
+}
+.hr1 {
+	width: 125px;
+	margin: 15px 0 15px 0;
+	float: right;
+	box-shadow: 1px 1px 2px black;
+}
+.hr2 {
+	width: 125px;
+	float: left;
+	margin: 15px 0 15px 0;
+	box-shadow: 1px 1px 2px black;
+}
+.OU span {
+	font-size: 14px;
+	line-height: 2.5;
+}
+.OU {
+	overflow: auto;
+	color: #999999;
+	padding-left: 140px;
+	padding-right: 140px;
+}
+.text-input {
+	background: black;
+	font-size: 14px;
+	width: 258px;
+	margin-top: 16px;
+	line-height: 35px;
+	padding-left: 18px;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: 2px solid gray;
+}
+.text-input:hover {
+	background: #1b5288;
+	box-shadow: 4px 4px 8px 0px rgba(55,114,164,1),
+				-4px -4px 8px 0px rgba(55,114,164,1);
+	border: 1px solid #4a8abe;
+}
+input:hover::-webkit-input-placeholder,
+input:focus::-webkit-input-placeholder {
+	color: white;
+}
+.checkbox {
+	font-size: 14px;
+	padding-left: 142px;
+	padding-right: 142px;
+	text-align: left;
+	margin-top: 22px;
+	margin-bottom: 22px;
+	color: #cbcac9;
+}
+.accaunt {
+	width: 150px;
+	height: 36px;
+	border-radius: 2px 2px 2px 2px;
+	background: -webkit-linear-gradient(rgba(80,176,220,1) 0%, rgba(50,127,199,1) 100%);
+    background: -o-linear-gradient(rgba(80,176,220,1) 0%, rgba(50,127,199,1) 100%);
+    background: linear-gradient(rgba(80,176,220,1) 0%, rgba(50,127,199,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50b0dc', endColorstr='#327fc7', GradientType=0 );
+	border: 1px solid #65a8e4;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+}
+.p1 {
+	color: #cbcac9;
+	font-size: 11px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+.p2 {
+	color: #cbcac9;
+	font-size: 11px;
+	margin-top: 6px;
+	font-weight: bold;
 }
