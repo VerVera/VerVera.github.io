@@ -72,7 +72,7 @@ ul.menu li img {
 }
 .form {
 	width: 50%;
-  	height: 610px;
+  	height: 623px;
   	margin: auto;
   	position: absolute;
   	top: 40px; left: 0; bottom: 0; right: 0;
@@ -96,7 +96,7 @@ ul.menu li img {
 .facebook {
 	margin-top: 1px;
 	padding-top: 37px;
-	padding-bottom: 32px;
+	padding-bottom: 20px;
 }
 .facebook button span {
 	display: inline-block;
