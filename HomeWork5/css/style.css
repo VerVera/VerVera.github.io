@@ -9,8 +9,11 @@
 body {
 	background-image: url(../img/background.jpg);
 	background-repeat: no-repeat;
-    position: center;
     background-size: cover;
+    margin: auto;
+  	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
+  	
 }
 .menu {
 	float: right;
@@ -69,10 +72,10 @@ ul.menu li img {
 }
 .form {
 	width: 50%;
-  	height: 50%;
+  	height: 610px;
   	margin: auto;
- 	position: absolute;
-  	top: 0; left: 0; bottom: 0; right: 0;
+  	position: absolute;
+  	top: 40px; left: 0; bottom: 0; right: 0;
   	text-align: center;
   	font-family: 'helvetica_neu', Arial, sans-serif;
 }
@@ -123,15 +126,15 @@ ul.menu li img {
 	font-weight: bold;
 }
 .hr1 {
-	width: 125px;
-	margin: 15px 0 15px 0;
+	width: 120px;
+	margin: 15px 0 15px 5px;
 	float: right;
 	box-shadow: 1px 1px 2px black;
 }
 .hr2 {
-	width: 125px;
+	width: 120px;
 	float: left;
-	margin: 15px 0 15px 0;
+	margin: 15px 5px 15px 0;
 	box-shadow: 1px 1px 2px black;
 }
 .OU span {
@@ -141,8 +144,9 @@ ul.menu li img {
 .OU {
 	overflow: auto;
 	color: #999999;
-	padding-left: 140px;
-	padding-right: 140px;
+    width: 276px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .text-input {
 	background: black;
@@ -155,12 +159,14 @@ ul.menu li img {
 	border-right: none;
 	border-top: none;
 	border-bottom: 2px solid gray;
+	color: white;
 }
-.text-input:hover {
+.text-input:focus {
 	background: #1b5288;
 	box-shadow: 4px 4px 8px 0px rgba(55,114,164,1),
 				-4px -4px 8px 0px rgba(55,114,164,1);
 	border: 1px solid #4a8abe;
+
 }
 input:hover::-webkit-input-placeholder,
 input:focus::-webkit-input-placeholder {
@@ -168,12 +174,13 @@ input:focus::-webkit-input-placeholder {
 }
 .checkbox {
 	font-size: 14px;
-	padding-left: 142px;
-	padding-right: 142px;
 	text-align: left;
 	margin-top: 22px;
 	margin-bottom: 22px;
 	color: #cbcac9;
+	width: 276px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .accaunt {
 	width: 150px;
@@ -198,4 +205,5 @@ input:focus::-webkit-input-placeholder {
 	font-size: 11px;
 	margin-top: 6px;
 	font-weight: bold;
+	padding-bottom: 20px;
 }
