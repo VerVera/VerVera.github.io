@@ -34,7 +34,7 @@ header {
 .header_logo p {
     letter-spacing: -0.5px;
     text-shadow: grey 0px 2px 2px;
-    margin-left: -2px;
+    margin-left: -3px;
     color: white;
 }
 .header_logo span {
@@ -54,9 +54,12 @@ header {
     margin-top: 24px;
 }
 .header_menu li {
-    display: inline-block;
+    display: none;
     padding: 0 5px;
     list-style: none;
+}
+li.active{
+    display: inline-block;
     border-bottom: 3px solid #b39ac2;
 }
 
@@ -73,7 +76,7 @@ text-align: center;
     display: inline-block;
     color: white;
     padding-top: 26px;
-    padding-right: 11px;
+    padding-right: 17px;
     line-height: 1;
     text-shadow: grey 0px 2px 6px;
 }
@@ -81,15 +84,14 @@ text-align: center;
     font-size: 18px;
     display: inline-block;
     color: #dab1ea;
-    padding-left: 8px;
-    padding-bottom: 10px;
+    padding-left: 4px;
+    /* padding-bottom: 10px; */
     text-shadow: grey 0px 2px 5px;
 }
 .left_img {
     display: inline-block;
-    padding-right: 31px;
+    padding-right: 34px;
     padding-bottom: 6px;
-
 }
 .right_img {
    display: inline-block;
@@ -97,10 +99,9 @@ text-align: center;
    padding-bottom: 6px;
 }
 .slider {
-    /* display: inline-block; */
     text-align: center;
-    padding-top: 24px;
-    padding-left: 47px;
+    padding-top: 78px;
+    padding-left: 11px;
 }
 .slider input {
     display: none;
@@ -138,7 +139,7 @@ text-align: center;
 .about .icon {
     background-position: -2px 0px;
     width: 29px;
-    height: 95px;
+    height: 31px;
     margin-right: 22px;
     margin-left: 30px;
     margin-top: 70px;
@@ -146,27 +147,29 @@ text-align: center;
 .about1 .icon {
     background-position: -29px 0px;
     width: 34px;
-    height: 95px;
-    margin-right: 17px;
+    height: 29px;
     margin-left: 30px;
-    margin-top: 26px;
+    margin-top: 54px;
 }
 .about2 .icon {
-    background-position: 0px -58px;
-    width: 50px;
-    height: 95px;
-    margin-right: 2px;
-    margin-left: 30px;
-    margin-top: 42px;
+    background-position: -62px 3px;
+    width: 27px;
+    height: 33px;
+    /* margin-right: 2px; */
+    margin-left: 29px;
+    margin-top: 70px;
 }
 .about .text {
-    padding-top: 67px;
+    padding-top: 68px;
+    padding-left: 81px;
 }
 .about1 .text {
-    padding-top: 26px;
+    padding-top: 54px;
+    padding-left: 81px;
 }
 .about2 .text {
-    padding-top: 42px;
+    padding-top: 69px;
+    padding-left: 81px;
 }
 .text {
     font-size: 24px;
@@ -176,11 +179,19 @@ text-align: center;
     font-family: "OpenSansLight", sans-serif;
     font-size: 16px;
     font-weight: lighter;
-    letter-spacing: 0.1px;
     line-height: 25px;
 }
+.about a, .about1 a, .about2 a {
+    float: right;
+    font-size: 19px;
+    overflow: hidden;
+    padding-top: 11px;
+    padding-right: 28px;
+    letter-spacing: -0.2px;
+    text-decoration: none;
+}
 .base3 {
-    height: 1210px;
+    height: 1207px;
     background: #f9f9f9;
 }
 article p {
@@ -188,29 +199,172 @@ article p {
     line-height: 20px;
 }
 .div1 img {
-    display: inline-block;
-    margin-left: -23px;
-    padding-top: 18px;
+    position: absolute;
+    top: 19px;
+    left: -24px;
     
 }
 .div1 {
+    padding-top: 25px;
+    margin-bottom: 24px;
+    padding-left: 35px;
+    position: relative;
     margin-left: 42px;
     display: inline-block;
     margin-top: 67px;
-    width: 256px;
-    height: 273px;
+    width: 221px;
+    height: 248px;
     background: white;
 }
 .div1 h2 {
     display: inline-block;
-    vertical-align: top;
-    margin-top: 23px;
-    margin-left: 8px;
     color: #828282;
+    padding-left: 1px;
 }
+.div1 h3 {
+    color: #f4d7ff;
+    font-size: 24px;
+    line-height: 0.8;
+    padding-bottom: 7px;
+    padding-left: 1px;
+}
+.div1 p {
+    line-height: 24px;
+    padding-left: 3px;
+}
+.slider1 {
+    text-align: center;
+    padding-top: -1px;
+    padding-left: 47px;
+}
+.slider1 input {
+    display: none;
+}
+.slider1 > input + label {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 8px;
+    background: rgba(250, 250, 250, 0.8);
+    cursor: pointer;
+    position: relative;
+    margin-right: 5px;
+    top: 90%;
+}
+.slider1 > input + label:hover {
+    background: rgba(90, 90, 90, 0.8);
+}
+.slider1 > input:checked + label {
+    background: rgba(90, 90, 90, 0.8);
+}
+.news h2 {
+    font-size: 28px;
+    padding-top: 43px;
+    padding-left: 18px;
+    padding-bottom: 7px;
+    letter-spacing: 0.45px;
+}
+.news {
+    position: relative;
+}
+.news img {
+    position: absolute;
+    padding-top: 8px;
+    padding-left: 18px;
+    
+}
+.news h3 {
+    font-family: "OpenSansLight", sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    padding-left: 85px;
+    padding-top: 7px;
+    letter-spacing: 0.68px;
+    line-height: 1.8;
+}
+.news p {
+    padding-left: 83px;
+    padding-bottom: 5px;
+    color: #646464;
+}
+.news span {
+    float: right;
+    overflow: hidden;
+    font-size: 18px;
+    margin-right: 27px;
+    margin-top: 13px;
+    color: #646464;
+}
+.news2 {
+    padding-top: 5px;
+}
+.news3 {
+    padding-top: 11px;
+}
+.brend {
+    margin-top: 175px;
+}
+.bilabong {
+    padding-left: 60px;
+}
+.dc {
+    padding-left: 53px;
+    padding-bottom: -2px;
+}
+.broom {
+    padding-top: 58px;
+    padding-left: 68px;
+}
+.awsm {
+    padding-left: 63px;
+}
+.racl {
+    padding-left: 40px;
+    padding-bottom: 21px;
+}
+.vonzipper {
+    padding-top: 40px;
+    padding-left: 54px;
+}
+
 footer {
     background: url("../img/fone2.png") center top no-repeat;
     width: 100%;
     height: 200px;
     text-align: center;
+    color: white;
+}
+footer p {
+    padding-top: 40px;
+    font-family: "OpenSansLight", sans-serif;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 153px;
+    letter-spacing: -0.43px;
+}
+footer span {
+    font-family: "OpenSansLight", sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    padding-left: 2px;
+}
+@media only screen and (max-width: 10240px) and (min-width: 480px) {
+    .conteiner {
+        min-width: 480px;
+    }
+    .header_menu li {
+        display: block;
+    }
+}
+@media only screen and (max-width: 10240px) and (min-width: 768px)  {
+    .conteiner {
+        width: 768px;
+    }
+    [class*="about"]{
+        display: inline-block;
+
+    }
+    .header_menu li {
+        display: inline-block;
+    }
 }
