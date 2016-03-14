@@ -17,18 +17,15 @@ body {
     background: url("../img/fone1.png") center top no-repeat;
 
 }
-
 .conteiner {
     width: 320px;
     height: 100%;
     margin: 0 auto;
 }
-
 header {
     width: 100%;
     height: 516px;
 }
-
 .header_logo {
     font-size: 48px;
     font-family: "LeagueGothic-Regular";
@@ -36,7 +33,6 @@ header {
     position: relative;
     text-align: center;
 }
-
 .header_logo p {
     letter-spacing: -0.5px;
     text-shadow: grey 0px 2px 2px;
@@ -48,12 +44,9 @@ header {
     text-shadow: none;
     color: rgba(116, 80, 131, 1);
 }
-
 .header_menu {
     text-align: center;
-
 }
-
 .header_menu a {
     display: inline-block;
     text-decoration: none;
@@ -68,11 +61,9 @@ header {
     display: none;
     list-style: none;
 }
-
 li.active {
     display: inline-block;
 }
-
 .active a {
     border-bottom: 3px solid #b39ac2;
     margin-right: 14px;
@@ -81,16 +72,12 @@ li.active {
 .phone {
     display: none;
 }
-
 .menu {
     margin-top: 95px;
-    /* text-align: center; */
 }
-
 .menu div {
     display: inline-block;
 }
-
 .menu_p1 {
     font-size: 37px;
     letter-spacing: -0.49px;
@@ -100,7 +87,6 @@ li.active {
     line-height: 1;
     text-shadow: grey 0px 2px 6px;
 }
-
 .menu_p2 {
     font-size: 18px;
     display: inline-block;
@@ -108,29 +94,26 @@ li.active {
     padding-left: 41px;
     text-shadow: grey 0px 2px 5px;
 }
-
+.menu_p3 {
+    display: none;
+}
 .left_img {
-    /* display: inline-block; */
     padding-bottom: 6px;
     margin-left: -9px;
 }
-
 .right_img {
     display: inline-block;
     padding-left: 30px;
     padding-bottom: 6px;
 }
-
 .slider {
     text-align: center;
     padding-top: 78px;
     margin-right: 4px;
 }
-
 .slider input {
     display: none;
 }
-
 .slider > input + label {
     display: inline-block;
     width: 15px;
@@ -142,16 +125,12 @@ li.active {
     margin-right: 4px;
     top: 90%;
 }
-
 .slider > input + label:hover {
     background: rgba(250, 250, 250, 0.8);
 }
-
 .slider > input:checked + label {
     background: rgba(220, 220, 220, 0.8);
-
 }
-
 .base2 {
     height: 597px;
     background: rgba(116,80,131,1);
@@ -168,16 +147,13 @@ li.active {
     -moz-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.4);
     box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.4);
 }
-
 .about,.about1, .about2  {
     overflow: hidden;
 }
-
 .icon {
     float: left;
     background: url("../img/sprite2.png") no-repeat;
 }
-
 .about .icon {
     background-position: -2px 0px;
     width: 29px;
@@ -186,7 +162,6 @@ li.active {
     margin-left: 24px;
     margin-top: 70px;
 }
-
 .about1 .icon {
     background-position: -29px 0px;
     width: 34px;
@@ -195,7 +170,6 @@ li.active {
     margin-top: 19px;
     margin-right: 17px;
 }
-
 .about2 .icon {
     background-position: -62px 3px;
     width: 27px;
@@ -204,40 +178,34 @@ li.active {
     margin-left: 27px;
     margin-top: 35px;
 }
-
 .about .text {
     padding-top: 67px;
     width: 195px;
     height: 103px;
     overflow: hidden;
 }
-
 .about1 .text {
     padding: 20px 0 0 0px;
     width: 195px;
     height: 103px;
     overflow: hidden;
 }
-
 .about2 .text {
     padding-top: 36px;
     width: 195px;
     height: 103px;
     overflow: hidden;
 }
-
 .text {
     font-size: 24px;
     color: white;
 }
-
 .about p, .about1 p, .about2 p {
     font-family: "OpenSansLight", sans-serif;
     font-size: 16px;
     font-weight: lighter;
     line-height: 25px;
 }
-
 .about a, .about1 a, .about2 a {
     float: right;
     font-size: 19px;
@@ -248,23 +216,19 @@ li.active {
     text-align: right;
     color: white;
 }
-
 .base3 {
     height: 1205px;
     background: #f9f9f9;
 }
-
 article p {
     font-family: "OpenSansLight", sans-serif;
     line-height: 20px;
 }
-
 .div1 img {
     position: absolute;
     top: 18px;
     left: -25px;
 }
-
 .div1 {
     padding: 23px 0 0px 34px;
     position: relative;
@@ -273,14 +237,11 @@ article p {
     width: 227px;
     height: 248px;
     background: white;
-    /* overflow: hidden; */
 }
-
 .div1 h2 {
     display: inline-block;
     color: #828282;
 }
-
 .div1 h3 {
     color: #f4d7ff;
     font-size: 24px;
@@ -288,27 +249,21 @@ article p {
     padding-bottom: 7px;
     padding-left: 1px;
 }
-
 .div1 p {
     line-height: 24px;
     padding-left: 3px;
     overflow: hidden;
     height: 170px;
-    /* width: 193px; */
     padding-right: 31px;
     letter-spacing: 0.2px;
-    /* padding-bottom: 6px; */
 }
-
 .slider1 {
     text-align: center;
     padding-left: 32px;
 }
-
 .slider1 input {
     display: none;
 }
-
 .slider1 > input + label {
     display: inline-block;
     width: 13px;
@@ -320,31 +275,25 @@ article p {
     margin-right: 5px;
     top: 90%;
 }
-
 .slider1 > input + label:hover {
     background: rgba(90, 90, 90, 0.8);
 }
-
 .slider1 > input:checked + label {
     background: rgba(90, 90, 90, 0.8);
 }
-
 .news h2 {
     font-size: 28px;
     padding: 44px 0 7px 11px;
     letter-spacing: 0.45px;
 }
-
 .news {
     position: relative;
 }
-
 .news img {
     position: absolute;
     padding-top: 8px;
     padding-left: 12px;
 }
-
 .news h3 {
     font-family: "OpenSansLight", sans-serif;
     font-weight: bolder;
@@ -354,7 +303,6 @@ article p {
     letter-spacing: 0.68px;
     line-height: 1.8;
 }
-
 .news p {
     padding-left: 77px;
     padding-bottom: 5px;
@@ -369,56 +317,47 @@ article p {
     margin-top: 12px;
     color: #646464;
 }
-
 .news2 {
     padding-top: 4px;
 }
-
 .news3 {
     padding-top: 10px;
 }
-
 .brend {
     margin-top: 173px;
 }
-
 .bilabong {
     padding-left: 55px;
 }
-
 .dc {
     padding-left: 52px;
 }
-
 .broom {
     padding-top: 58px;
     padding-left: 63px;
 }
-
 .awsm {
     padding-left: 63px;
 }
-
 .racl {
     padding-left: 35px;
     padding-bottom: 21px;
 }
-
 .vonzipper {
     padding-top: 40px;
     padding-left: 54px;
 }
-/*.base4 {
+.base4 {
     display: none;
-}*/
+}
 footer {
     background: url("../img/fone2.png") center top no-repeat;
     width: 100%;
     height: 200px;
     text-align: center;
     color: white;
+    text-shadow: grey 0px 2px 5px;
 }
-
 footer p {
     padding-top: 40px;
     font-family: "OpenSansLight", sans-serif;
@@ -427,16 +366,15 @@ footer p {
     padding-left: 82px;
     letter-spacing: -0.43px;
 }
-
 footer span {
     font-family: "OpenSansLight", sans-serif;
     font-size: 13px;
     font-weight: bolder;
     padding-left: 2px;
 }
-/*.footer_menu {
+.footer_menu {
     display: none;
-}*/
+}
 
 @media only screen and (max-width: 765px) and (min-width: 480px) {
     .conteiner {
@@ -609,6 +547,7 @@ footer span {
     .base4 {
         height: 670px;
         background: #ececec;
+        display: block;
     }
     .base3 {
         height: 1019px;
@@ -633,25 +572,262 @@ footer span {
         font-weight: lighter;
         padding: 55px 0 0 9px;
     }
+    .footer_menu {
+        display: inline-block;
+    }
     .footer_menu li {
         display: inline-block;
+        margin-top: 43px;
+        margin-right: 9px;
+        margin-left: 11px;
     }
     .footer_menu a {
         text-decoration: none;
+        color: white;
+        font-size: 21px;
+    }
+    footer p {
+        padding-top: 31px;
+        padding-left: 162px;
     }
 }
 
 @media only screen and (max-width: 960px) and (min-width: 768px) {
     .conteiner {
         width: 768px;
+        height: 100%;
+        text-align: left;
     }
 
     [class*="about"] {
         display: inline-block;
 
     }
-
+    .header_logo {
+        text-align: left;
+        padding-left: 26px;
+        padding-top: 61px;
+    }
+    .header_logo span {
+        padding-left: 3px;
+    }
+    .header_menu {
+        text-align: left;
+    }
+    .header_menu a {
+        margin-right: 32px;
+        padding-left: 11px;
+        margin-top: 22px;
+    }
     .header_menu li {
         display: inline-block;
     }
+    .phone {
+        display: block;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        background: url("../img/phone2.png") -825px center no-repeat;
+        margin-top: 50px;
+        height: 432px;
+        z-index: -1;
+    }
+    .menu_p3 {
+        display: block;
+    }
+    .menu {
+        margin-top: 143px;
+    }
+    .menu_p1 {
+        font-size: 48px;
+        padding: 27px 0 0 21px;
+    }
+    .menu_p2 {
+        font-size: 25px;
+        padding-top: 5px;
+        padding-left: 18px;
+        letter-spacing: -0.28px;
+    }
+    .menu_p3 {
+        font-family: "OpenSansLight", sans-serif;
+        color: white;
+        width: 275px;
+        padding-left: 18px;
+        padding-top: 4px;
+        line-height: 1.69;
+        letter-spacing: -0.12px;
+    }
+    .left_img {
+        padding-bottom: 68px;
+    }
+    .right_img {
+        padding-left: 427px;
+        padding-bottom: 68px;
+    }
+    .slider {
+        margin-left: 391px;
+        margin-top: 67px;
+    }
+    .base2 {
+        height: 342px;
+    }
+    .base1 {
+        height: 798px;
+    }
+    .about .text {
+        width: 162px;
+        height: 172px;
+        padding-top: 75px;
+    }
+    .about .icon {
+        margin-top: 78px;
+        margin-right: 21px;
 }
+    .about1 .icon {
+        margin-left: 35px;
+        margin-top: 27px;
+        margin-right: 18px;
+}
+    .about2 .icon {
+        margin-top: 42px;
+        margin-left: 46px;
+}
+    .about1 .text {
+        width: 166px;
+        height: 172px;
+    }
+    .about2 .text {
+        width: 166px;
+        height: 172px;
+    }
+    .about a, .about1 a, .about2 a {
+        padding-right: 20px;
+        font-size: 18px;
+        padding-top: 7px;
+    }
+    .div1 {
+        width: 275px;
+        height: 245px;
+        margin: 99px 0 24px 37px;
+        padding: 28px 0 0px 37px;
+        position: absolute;
+    }
+    .div1 h3 {
+        padding-bottom: 12px;
+    }
+    .div1 p {
+        height: 143px;
+        padding: 0 0 0 0;
+        width: 271px;
+    }
+
+    .slider1 {
+        text-align: left;
+        padding-left: 154px;
+    }
+    .news {
+        float: right;
+        padding-right: 39px;
+        margin-top: 108px;
+    }
+    .news h2 {
+        padding: 0px 0 7px 11px;
+        letter-spacing: 0.6px;
+    }
+    .news2 img {
+         padding: 11px 0 0 11px;
+     }
+    .news2 h3 {
+        padding-left: 78px;
+        padding-top: 9px;
+    }
+    .news3 img {
+        padding: 5px 0 0 11px;
+    }
+    .news3 h3 {
+        padding-left: 78px;
+        padding-top: 4px;
+    }
+    .news a {
+        margin-right: -4px;
+        margin-top: 14px;
+    }
+    .brend {
+        margin: 0 auto;
+        padding-top: 57px;
+        display: inline-block;
+        position: relative;
+    }
+    .bilabong {
+        padding-left: 15px;
+    }
+    .broom {
+        padding-left: 52px;
+    }
+    .racl {
+        padding-left: 54px;
+    }
+    .base4 {
+        height: 397px;
+        background: #ececec;
+        display: block;
+    }
+    .base3 {
+        height: 606px;
+    }
+    .content h2 {
+        font-weight: lighter;
+        padding: 100px 0px 0 10px;
+    }
+    .content p, .content2 p, .content3 p  {
+        font-family: "OpenSansLight", sans-serif;
+        padding-top: 9px;
+        padding-left: 10px;
+        padding-right: 46px;
+        width: 198px;
+        height: 164px;
+        line-height: 24px;
+        color: #828282;
+        display: inline-block;
+        overflow: hidden;
+        letter-spacing: 0.42px;
+    }
+    .content2 h2 {
+        font-weight: lighter;
+        padding: 52px 0 0 20px;
+    }
+    .content3 h2 {
+        font-weight: lighter;
+        padding: 54px 0 0 28px;
+    }
+    .content, .content2, .content3 {
+        display: inline-block;
+    }
+    .footer_menu {
+        display: inline-block;
+        text-align: left;
+        width: 768px;
+    }
+    .footer_menu ul {
+        float: left;
+    }
+    .footer_menu li {
+        display: inline-block;
+        margin-top: 43px;
+        margin-right: 29px;
+        margin-left: 10px;
+        /* width: 53px; */
+        text-align: left;
+    }
+    .footer_menu a {
+        text-decoration: none;
+        color: white;
+        font-size: 21px;
+    }
+    footer p {
+        padding-top: 29px;
+        text-align: right;
+        padding-right: 11px;
+    }
+}
+
