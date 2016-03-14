@@ -106,7 +106,6 @@ li.active {
     display: inline-block;
     color: #dab1ea;
     padding-left: 41px;
-    /* padding-bottom: 10px; */
     text-shadow: grey 0px 2px 5px;
 }
 
@@ -251,7 +250,7 @@ li.active {
 }
 
 .base3 {
-    height: 1207px;
+    height: 1205px;
     background: #f9f9f9;
 }
 
@@ -409,7 +408,9 @@ article p {
     padding-top: 40px;
     padding-left: 54px;
 }
-
+/*.base4 {
+    display: none;
+}*/
 footer {
     background: url("../img/fone2.png") center top no-repeat;
     width: 100%;
@@ -433,17 +434,18 @@ footer span {
     font-weight: bolder;
     padding-left: 2px;
 }
+/*.footer_menu {
+    display: none;
+}*/
 
 @media only screen and (max-width: 765px) and (min-width: 480px) {
     .conteiner {
         min-width: 480px;
-        height: 550px;
+        height: 548px;
     }
-
     .header_logo p {
         margin-left: -19px;
     }
-
     .header_menu {
         position: absolute;
         margin: 12px 120px 0 108px;
@@ -455,7 +457,6 @@ footer span {
         padding-top: 8px;
         overflow: hidden;
     }
-
     .header_menu li {
         height: 43px;
         display: block;
@@ -463,69 +464,180 @@ footer span {
         box-sizing: border-box;
         border-bottom: 1px solid rgba(54, 41, 62, 0.8);
     }
-
     .header_menu a {
         margin-top: 0;
+        margin-right: 0;
     }
-
     li.select {
         background: rgba(54, 41, 62, 0.9);
-        height: 38px;
+        height: 39px;
         border-bottom: 3px solid #b39ac2;
     }
-
     .menu {
         height: 202px;
         margin-top: 151px;
         text-align: left;
     }
-
     .phone {
         display: block;
         position: absolute;
         width: 100%;
         left: 0;
         background: url("../img/phone.png") -969px center no-repeat;
-        margin-top: 69px;
+        margin-top: 70px;
         height: 313px;
         z-index: -1;
     }
-
+    .menu_p1 {
+        padding-left: 11px;
+    }
+    .menu_p2 {
+        padding-left: 11px;
+    }
     .left_img {
         margin: 0 0 0 -9px;
-        padding-right: 15px;
+        padding-right: 4px;
     }
-
     .right_img {
-        margin: 0 0 0 181px;
+        margin: 0 0 0 185px;
     }
     .slider {
-        padding: 0px 0px 0px 0px;
         margin: 0 5px 0 0;
     }
     .about .icon {
-        margin: 76px 0 0px 24px;
+        margin: 78px 0 0px 24px;
     }
     .about .text {
-        padding: 73px 0 0 74px;
+        padding: 75px 0 0 21px;
+        width: 377px;
     }
     .about1 .icon {
-        margin: 53px 0 0px 24px;
+        margin: 20px 0 0px 24px;
     }
     .about1 .text {
-        padding: 54px 0 0 74px;
+        padding: 20px 0 0 16px;
+        width: 377px;
     }
     .about2 .icon {
-        margin: 57px 0 0 24px;
+        margin: 23px 0 0 24px;
     }
     .about2 .text {
-        padding: 58px 0 0 74px;
+        padding: 24px 0 0 23px;
+        width: 377px;
     }
-    .about p, .about1 p, .about2 p {
-        
-letter-spacing: 0.4px;
-        
-text-align: justify;
+    .div1 {
+        width: 380px;
+        height: 250px;
+        padding-left: 37px;
+        padding-top: 25px;
+        margin-bottom: 22px;
+    }
+    .div1 img {
+        left: -26px;
+    }
+    .div1 h2 {
+        font-size: 30px;
+    }
+    .div1 h3 {
+        display: inline-block;
+        font-size: 30px;
+        padding-bottom: 0px;
+    }
+    .div1 p {
+        height: 200px;
+        padding: 12px 0 0 0px;
+        letter-spacing: -0.3px;
+        width: 353px;
+    }
+    .slider1 {
+        padding-left: 0px;
+    }
+    .news h2 {
+        padding-left: 75px;
+    }
+    .news img {
+        padding-left: 75px;
+        padding-top: 7px;
+    }
+    .news h3 {
+        padding-left: 141px;
+        padding-top: 7px;
+    }
+    .news p {
+        padding-left: 140px;
+    }
+    .news2 img {
+        padding-left: 75px;
+        padding-top: 11px;
+    }
+    .news2 h3 {
+        padding-left: 141px;
+        padding-top: 11px;
+    }
+    .news3 img {
+        padding-top: 4px;
+    }
+    .news3 h3 {
+        padding-left: 141px;
+        padding-top: 3px;
+    }
+    .news a {
+        margin-top: 14px;
+        margin-right: 69px;
+    }
+    .brend {
+        margin-top: 102px;
+    }
+    .bilabong {
+        padding-left: 75px;
+    }
+    .broom {
+        padding-left: 52px;
+    }
+    .awsm {
+        padding-left: 58px;
+    }
+    .racl {
+        padding-left: 58px;
+        padding-bottom: 21px;
+    }
+    .vonzipper {
+        padding-top: 25px;
+        padding-left: 53px;
+        padding-bottom: -1px;
+    }
+    .base4 {
+        height: 670px;
+        background: #ececec;
+    }
+    .base3 {
+        height: 1019px;
+    }
+    .content h2 {
+        font-weight: lighter;
+        padding: 78px 0 0 9px;
+    }
+    .content p, .content2 p, .content3 p  {
+        font-family: "OpenSansLight", sans-serif;
+        padding-top: 9px;
+        padding-left: 10px;
+        width: 452px;
+        line-height: 24px;
+        color: #828282;
+    }
+    .content2 h2 {
+        font-weight: lighter;
+        padding: 52px 0 0 9px;
+}
+    .content3 h2 {
+        font-weight: lighter;
+        padding: 55px 0 0 9px;
+    }
+    .footer_menu li {
+        display: inline-block;
+    }
+    .footer_menu a {
+        text-decoration: none;
     }
 }
 
