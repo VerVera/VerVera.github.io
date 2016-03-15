@@ -22,6 +22,9 @@ body {
     height: 100%;
     margin: 0 auto;
 }
+.base1 {
+    height: 515px;
+}
 header {
     width: 100%;
     height: 516px;
@@ -65,7 +68,7 @@ li.active {
     display: inline-block;
 }
 .active a {
-    border-bottom: 3px solid #b39ac2;
+    border-bottom: 3px solid #d8aee8;
     margin-right: 14px;
 }
 
@@ -90,7 +93,7 @@ li.active {
 .menu_p2 {
     font-size: 18px;
     display: inline-block;
-    color: #dab1ea;
+    color: #d8aee8;
     padding-left: 41px;
     text-shadow: grey 0px 2px 5px;
 }
@@ -217,7 +220,7 @@ li.active {
     color: white;
 }
 .base3 {
-    height: 1205px;
+    height: 1209px;
     background: #f9f9f9;
 }
 article p {
@@ -256,6 +259,7 @@ article p {
     height: 170px;
     padding-right: 31px;
     letter-spacing: 0.2px;
+    color: #676767;
 }
 .slider1 {
     text-align: center;
@@ -283,15 +287,16 @@ article p {
 }
 .news h2 {
     font-size: 28px;
-    padding: 44px 0 7px 11px;
+    padding: 45px 0 7px 11px;
     letter-spacing: 0.45px;
+    color: #676767;
 }
 .news {
     position: relative;
 }
 .news img {
     position: absolute;
-    padding-top: 8px;
+    padding-top: 9px;
     padding-left: 12px;
 }
 .news h3 {
@@ -302,11 +307,18 @@ article p {
     padding-top: 8px;
     letter-spacing: 0.68px;
     line-height: 1.8;
+    width: 154px;
+    height: 29px;
+    overflow: hidden;
+    color: #676767;
 }
 .news p {
     padding-left: 77px;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
     color: #646464;
+    width: 223px;
+    height: 20px;
+    overflow: hidden;
 }
 
 .news a {
@@ -314,17 +326,17 @@ article p {
     text-decoration: none;
     font-size: 18px;
     margin-right: 34px;
-    margin-top: 12px;
+    margin-top: 15px;
     color: #646464;
 }
 .news2 {
-    padding-top: 4px;
+    padding-top: 6px;
 }
 .news3 {
-    padding-top: 10px;
+    padding-top: 11px;
 }
 .brend {
-    margin-top: 173px;
+    margin-top: 176px;
 }
 .bilabong {
     padding-left: 55px;
@@ -356,7 +368,7 @@ footer {
     height: 200px;
     text-align: center;
     color: white;
-    text-shadow: grey 0px 2px 5px;
+    text-shadow: grey 0 2px 5px;
 }
 footer p {
     padding-top: 40px;
@@ -443,14 +455,14 @@ footer span {
         margin: 0 5px 0 0;
     }
     .about .icon {
-        margin: 78px 0 0px 24px;
+        margin: 78px 0 0 24px;
     }
     .about .text {
         padding: 75px 0 0 21px;
         width: 377px;
     }
     .about1 .icon {
-        margin: 20px 0 0px 24px;
+        margin: 20px 0 0 24px;
     }
     .about1 .text {
         padding: 20px 0 0 16px;
@@ -479,16 +491,12 @@ footer span {
     .div1 h3 {
         display: inline-block;
         font-size: 30px;
-        padding-bottom: 0px;
     }
     .div1 p {
         height: 200px;
-        padding: 12px 0 0 0px;
+        padding: 12px 0 0 0;
         letter-spacing: -0.3px;
         width: 353px;
-    }
-    .slider1 {
-        padding-left: 0px;
     }
     .news h2 {
         padding-left: 75px;
@@ -597,8 +605,8 @@ footer span {
         width: 768px;
         height: 100%;
         text-align: left;
+        position: relative;
     }
-
     [class*="about"] {
         display: inline-block;
 
@@ -709,7 +717,7 @@ footer span {
         width: 275px;
         height: 245px;
         margin: 99px 0 24px 37px;
-        padding: 28px 0 0px 37px;
+        padding: 28px 0 0 37px;
         position: absolute;
     }
     .div1 h3 {
@@ -724,6 +732,8 @@ footer span {
     .slider1 {
         text-align: left;
         padding-left: 154px;
+        position: absolute;
+        top: 395px;
     }
     .news {
         float: right;
@@ -731,7 +741,7 @@ footer span {
         margin-top: 108px;
     }
     .news h2 {
-        padding: 0px 0 7px 11px;
+        padding: 0 0 7px 11px;
         letter-spacing: 0.6px;
     }
     .news2 img {
@@ -777,7 +787,7 @@ footer span {
     }
     .content h2 {
         font-weight: lighter;
-        padding: 100px 0px 0 10px;
+        padding: 100px 0 0 10px;
     }
     .content p, .content2 p, .content3 p  {
         font-family: "OpenSansLight", sans-serif;
@@ -816,7 +826,6 @@ footer span {
         margin-top: 43px;
         margin-right: 29px;
         margin-left: 10px;
-        /* width: 53px; */
         text-align: left;
     }
     .footer_menu a {
@@ -830,4 +839,140 @@ footer span {
         padding-right: 11px;
     }
 }
+@media only screen and (max-width: 10240px) and (min-width: 960px) {
+    .conteiner {
+        width: 960px;
+    }
+    .base1 {
+        height: 846px;
+    }
+    .header_logo {
+        padding-left: 15px;
+        display: inline-block;
+    }
+    .header_logo span {
+        padding-left: 2px;
+    }
+    .header_menu {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 48px;
 
+    }
+    .header_menu li {
+        display: inline-block;
+    }
+        li.active {
+        padding-left: 165px;
+    }
+    li.select {
+        padding-left: 23px;
+        padding-right: 37px;
+    }
+    li.select1 {
+          padding-left: 38px;
+      }
+    li.select2 {
+        padding-left: 38px;
+    }
+    li.select3 {
+        padding-left: 31px;
+    }
+    .phone {
+        display: block;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        background: url("../img/phone3.png") -257px center no-repeat;
+        margin-top: 146px;
+        height: 426px;
+        z-index: -1;
+    }
+    .menu_p3 {
+        display: block;
+        font-family: "OpenSansLight", sans-serif;
+        color: white;
+        width: 275px;
+        padding-left: 18px;
+        padding-top: 4px;
+        line-height: 1.69;
+        letter-spacing: -0.12px;
+    }
+    .menu {
+        margin-top: 212px;
+    }
+    .menu_p1 {
+        padding: 26px 0px 0 292px;
+        font-size: 59px;
+        letter-spacing: -0.25px;
+    }
+    .left_img {
+        margin-left: -316px;
+        padding-bottom: 97px;
+    }
+    .menu_p2 {
+        margin-left: 293px;
+        padding-left: 0;
+        line-height: 1;
+        font-size: 32px;
+        font-weight: 500;
+    }
+    .menu_p3 {
+        margin-top: 4px;
+        margin-left: 273px;
+        width: 501px;
+        line-height: 1.45;
+        font-size: 17px;
+}
+    .right_img {
+
+    }
+    .slider {
+        padding-top: 173px;
+        margin-left: 554px;
+    }
+    .base2 {
+        height: 341px;
+
+    }
+    .about .text {
+        width: 240px;
+        height: 172px;
+        padding-top: 75px;
+        padding-left: 25px;
+        letter-spacing: 0.9px;
+        font-size: 27px;
+    }
+    .about .icon {
+        margin: 81px 0 0 11px;
+    }
+    .about1 .icon {
+        margin-left: 41px;
+        margin-top: 27px;
+        margin-right: 22px;
+    }
+    .about2 .icon {
+        margin-top: 39px;
+        margin-left: 42px;
+    }
+    .about1 .text {
+        width: 240px;
+        height: 172px;
+        letter-spacing: 0.9px;
+        font-size: 27px;
+    }
+    .about2 .text {
+        width: 224px;
+        height: 172px;
+        letter-spacing: 0.9px;
+        font-size: 27px;
+    }
+    .about a, .about1 a, .about2 a {
+        padding-right: 15px;
+        font-size: 18px;
+    }
+    .about, .about1, .about2 {
+        
+display: inline-block;
+    }
+}
