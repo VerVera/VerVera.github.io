@@ -11,28 +11,22 @@
     font-style: normal;
     font-weight: normal;
 }
-
 body {
     font-family: "LeagueGothic-Regular";
     background: url("../img/fone1.png") center top no-repeat;
-
 }
-
 .conteiner {
     width: 320px;
     height: 100%;
     margin: 0 auto;
 }
-
 .base1 {
     height: 515px;
 }
-
 header {
     width: 100%;
     height: 516px;
 }
-
 .header_logo {
     font-size: 48px;
     font-family: "LeagueGothic-Regular";
@@ -40,23 +34,19 @@ header {
     position: relative;
     text-align: center;
 }
-
 .header_logo p {
     letter-spacing: -0.5px;
     text-shadow: grey 0px 2px 2px;
     margin-left: -16px;
     color: white;
 }
-
 .header_logo span {
     text-shadow: none;
     color: rgba(116, 80, 131, 1);
 }
-
 .header_menu {
     text-align: center;
 }
-
 .header_menu a {
     display: inline-block;
     text-decoration: none;
@@ -66,37 +56,32 @@ header {
     margin-top: 24px;
     padding: 0 6px;
 }
-
 .header_menu li {
     display: none;
     list-style: none;
 }
-
 li.active {
     display: inline-block;
 }
-
 .active a {
     border-bottom: 3px solid #d8aee8;
     margin-right: 14px;
 }
-
 .phone {
     display: none;
 }
-
 .iphone {
     display: none;
 }
-
 .menu {
     margin-top: 95px;
 }
-
 .menu div {
     display: inline-block;
-    /* width: 478px; */
-    /* float: left; */
+
+}
+div.slider_img  {
+    display: none;
 }
 
 .menu_p1 {
@@ -108,7 +93,6 @@ li.active {
     line-height: 1;
     text-shadow: grey 0px 2px 6px;
 }
-
 .menu_p2 {
     font-size: 18px;
     display: inline-block;
@@ -116,32 +100,25 @@ li.active {
     padding-left: 41px;
     text-shadow: grey 0px 2px 5px;
 }
-
 .menu_p3 {
     display: none;
 }
-
 .left_img {
     padding-bottom: 6px;
     margin-left: -9px;
 }
-
 .right_img {
     display: inline-block;
-    /* padding-left: 418px; */
     padding-bottom: 6px;
 }
-
 .slider {
     text-align: center;
     padding-top: 78px;
     margin-right: 4px;
 }
-
 .slider input {
     display: none;
 }
-
 .slider > input + label {
     display: inline-block;
     width: 15px;
@@ -153,7 +130,6 @@ li.active {
     margin-right: 4px;
     top: 90%;
 }
-
 .slider > input + label:hover {
     background: rgba(250, 250, 250, 0.8);
 }
@@ -161,7 +137,6 @@ li.active {
 .slider > input:checked + label {
     background: rgba(220, 220, 220, 0.8);
 }
-
 .base2 {
     height: 597px;
     background: rgba(116, 80, 131, 1);
@@ -182,12 +157,10 @@ li.active {
 .about, .about1, .about2 {
     /* overflow: hidden; */
 }
-
 .icon {
     float: left;
     background: url("../img/sprite2.png") no-repeat;
 }
-
 .about .icon {
     background-position: -2px 0px;
     width: 29px;
@@ -196,58 +169,50 @@ li.active {
     margin-left: 24px;
     margin-top: 70px;
 }
-
 .about1 .icon {
     background-position: -29px 0px;
     width: 34px;
     height: 29px;
     margin-left: 23px;
-    margin-top: 19px;
+    margin-top: 55px;
     margin-right: 17px;
 }
-
 .about2 .icon {
     background-position: -62px 3px;
     width: 27px;
     height: 33px;
     margin-right: 20px;
     margin-left: 27px;
-    margin-top: 35px;
+    margin-top: 69px;
 }
-
 .about .text {
     padding-top: 67px;
     width: 195px;
     height: 103px;
     overflow: hidden;
 }
-
 .about1 .text {
     padding: 20px 0 0 0px;
     width: 195px;
     height: 103px;
     overflow: hidden;
 }
-
 .about2 .text {
     padding-top: 36px;
     width: 195px;
     height: 103px;
     overflow: hidden;
 }
-
 .text {
     font-size: 24px;
     color: white;
 }
-
 .about p, .about1 p, .about2 p {
     font-family: "OpenSansLight", sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 25px;
 }
-
 .about a, .about1 a, .about2 a {
     float: right;
     font-size: 19px;
@@ -258,12 +223,10 @@ li.active {
     text-align: right;
     color: white;
 }
-
 .base3 {
     height: 1209px;
     background: #f9f9f9;
 }
-
 article p {
     font-family: "OpenSansLight", sans-serif;
     line-height: 20px;
@@ -274,7 +237,6 @@ article p {
     top: 18px;
     left: -25px;
 }
-
 .div1 {
     padding: 23px 0 0px 34px;
     position: relative;
@@ -284,12 +246,10 @@ article p {
     height: 248px;
     background: white;
 }
-
 .div1 h2 {
     display: inline-block;
     color: #828282;
 }
-
 .div1 h3 {
     color: #f4d7ff;
     font-size: 24px;
@@ -297,7 +257,6 @@ article p {
     padding-bottom: 7px;
     padding-left: 1px;
 }
-
 .div1 p {
     line-height: 24px;
     padding-left: 3px;
@@ -307,16 +266,13 @@ article p {
     letter-spacing: 0.2px;
     color: #676767;
 }
-
 .slider1 {
     text-align: center;
     padding-left: 32px;
 }
-
 .slider1 input {
     display: none;
 }
-
 .slider1 > input + label {
     display: inline-block;
     width: 13px;
@@ -328,7 +284,6 @@ article p {
     margin-right: 5px;
     top: 90%;
 }
-
 .slider1 > input + label:hover {
     background: rgba(90, 90, 90, 0.8);
 }
@@ -336,24 +291,17 @@ article p {
 .slider1 > input:checked + label {
     background: rgba(90, 90, 90, 0.8);
 }
-
 .news h2 {
     font-size: 28px;
     padding: 45px 0 7px 11px;
     letter-spacing: 0.45px;
     color: #676767;
 }
-
-.news {
-    /* position: relative; */
-}
-
 .news img {
     position: absolute;
     padding-top: 9px;
     padding-left: 12px;
 }
-
 .news h3 {
     font-family: "OpenSansLight", sans-serif;
     font-weight: bolder;
@@ -367,7 +315,6 @@ article p {
     overflow: hidden;
     color: #676767;
 }
-
 .news p {
     padding-left: 77px;
     padding-bottom: 2px;
@@ -376,7 +323,6 @@ article p {
     height: 20px;
     overflow: hidden;
 }
-
 .news a {
     float: right;
     text-decoration: none;
@@ -385,50 +331,39 @@ article p {
     margin-top: 15px;
     color: #646464;
 }
-
 .news2 {
     padding-top: 6px;
 }
-
 .news3 {
     padding-top: 11px;
 }
-
 .brend {
     margin-top: 176px;
 }
-
 .bilabong {
     padding-left: 55px;
 }
-
 .dc {
     padding-left: 52px;
 }
-
 .broom {
     padding-top: 58px;
     padding-left: 63px;
 }
-
 .awsm {
     padding-left: 63px;
 }
-
 .racl {
     padding-left: 35px;
     padding-bottom: 21px;
 }
-
 .vonzipper {
     padding-top: 40px;
     padding-left: 54px;
 }
-
 .base4 {
     display: none;
 }
-
 footer {
     background: url("../img/fone2.png") center top no-repeat;
     width: 100%;
@@ -437,7 +372,6 @@ footer {
     color: white;
     text-shadow: grey 0 2px 5px;
 }
-
 footer p {
     padding-top: 40px;
     font-family: "OpenSansLight", sans-serif;
@@ -446,28 +380,28 @@ footer p {
     padding-left: 82px;
     letter-spacing: -0.43px;
 }
-
 footer span {
     font-family: "OpenSansLight", sans-serif;
     font-size: 13px;
     font-weight: bolder;
     padding-left: 2px;
 }
-
-.footer_menu {
+    .footer_menu {
     display: none;
 }
 
 @media only screen and (max-width: 765px) and (min-width: 480px) {
-    .conteiner {
-        min-width: 480px;
-        height: 548px;
-    }
 
+    .base1 {
+        height: 549px;
+    }
+      .conteiner {
+        min-width: 480px;
+        height: 766px;
+    }
     .header_logo p {
         margin-left: -19px;
     }
-
     .header_menu {
         position: absolute;
         margin: 12px 120px 0 108px;
@@ -479,7 +413,6 @@ footer span {
         padding-top: 8px;
         overflow: hidden;
     }
-
     .header_menu li {
         height: 43px;
         display: block;
@@ -487,24 +420,23 @@ footer span {
         box-sizing: border-box;
         border-bottom: 1px solid rgba(54, 41, 62, 0.8);
     }
-
     .header_menu a {
         margin-top: 0;
         margin-right: 0;
     }
-
     li.select {
         background: rgba(54, 41, 62, 0.9);
         height: 39px;
         border-bottom: 3px solid #b39ac2;
     }
-
+    .slider_img div {
+        display: none;
+    }
     .menu {
         height: 202px;
         margin-top: 151px;
         text-align: left;
     }
-
     .phone {
         display: block;
         position: absolute;
@@ -515,55 +447,44 @@ footer span {
         height: 313px;
         z-index: -1;
     }
-
     .menu_p1 {
         padding-left: 11px;
     }
-
     .menu_p2 {
         padding-left: 11px;
     }
-
     .left_img {
         margin: 0 0 0 -9px;
         padding-right: 4px;
     }
-
     .right_img {
         margin: 0 0 0 185px;
     }
-
     .slider {
         margin: 0 5px 0 0;
+        padding-top: 1px;
     }
-
     .about .icon {
         margin: 78px 0 0 24px;
     }
-
     .about .text {
         padding: 75px 0 0 21px;
         width: 377px;
     }
-
     .about1 .icon {
-        margin: 20px 0 0 24px;
+        margin: 55px 0 0 24px;
     }
-
     .about1 .text {
         padding: 20px 0 0 16px;
         width: 377px;
     }
-
     .about2 .icon {
-        margin: 23px 0 0 24px;
+        margin: 58px 0 0 24px;
     }
-
     .about2 .text {
         padding: 24px 0 0 23px;
         width: 377px;
     }
-
     .div1 {
         width: 380px;
         height: 250px;
@@ -571,69 +492,55 @@ footer span {
         padding-top: 25px;
         margin-bottom: 22px;
     }
-
     .div1 img {
         left: -26px;
     }
-
     .div1 h2 {
         font-size: 30px;
     }
-
     .div1 h3 {
         display: inline-block;
         font-size: 30px;
     }
-
     .div1 p {
         height: 200px;
         padding: 12px 0 0 0;
         letter-spacing: -0.3px;
         width: 353px;
     }
-
     .news h2 {
         padding-left: 75px;
     }
-
     .news img {
         padding-left: 75px;
         padding-top: 7px;
     }
-
     .news h3 {
         padding-left: 141px;
         padding-top: 7px;
     }
-
     .news p {
         padding-left: 140px;
     }
-
     .news2 img {
         padding-left: 75px;
         padding-top: 11px;
     }
-
     .news2 h3 {
         padding-left: 141px;
         padding-top: 11px;
     }
-
     .news3 img {
         padding-top: 4px;
     }
-
     .news3 h3 {
         padding-left: 141px;
         padding-top: 3px;
     }
-
     .news a {
         margin-top: 14px;
         margin-right: 69px;
     }
-
     .brend {
         margin-top: 102px;
     }
@@ -641,41 +548,36 @@ footer span {
     .bilabong {
         padding-left: 75px;
     }
-
     .broom {
         padding-left: 52px;
     }
-
     .awsm {
         padding-left: 58px;
     }
-
     .racl {
         padding-left: 58px;
         padding-bottom: 21px;
     }
-
     .vonzipper {
         padding-top: 25px;
         padding-left: 53px;
-        padding-bottom: -1px;
+        padding-bottom: 1px;
     }
-
     .base4 {
         height: 670px;
         background: #ececec;
         display: block;
     }
-
-    .base3 {
+    .content_pigbuller, .content_recent {
+        display: none;
+    }
+     .base3 {
         height: 1019px;
     }
-
     .content h2 {
         font-weight: lighter;
         padding: 78px 0 0 9px;
     }
-
     .content p, .content2 p, .content3 p {
         font-family: "OpenSansLight", sans-serif;
         padding-top: 9px;
@@ -684,34 +586,28 @@ footer span {
         line-height: 24px;
         color: #828282;
     }
-
     .content2 h2 {
         font-weight: lighter;
-        padding: 52px 0 0 9px;
+        padding: 27px 0 0 9px;
     }
-
     .content3 h2 {
         font-weight: lighter;
-        padding: 55px 0 0 9px;
+        padding: 30px 0 0 9px;
     }
-
     .footer_menu {
         display: inline-block;
     }
-
     .footer_menu li {
         display: inline-block;
         margin-top: 43px;
         margin-right: 9px;
         margin-left: 11px;
     }
-
     .footer_menu a {
         text-decoration: none;
         color: white;
         font-size: 21px;
     }
-
     footer p {
         padding-top: 31px;
         padding-left: 162px;
@@ -723,139 +619,127 @@ footer span {
         width: 768px;
         height: 100%;
         text-align: left;
-        position: relative;
     }
 
     [class*="about"] {
         display: inline-block;
 
     }
-
     .header_logo {
         text-align: left;
         padding-left: 26px;
         padding-top: 61px;
     }
-
     .header_logo span {
         padding-left: 3px;
     }
-
     .header_menu {
         text-align: left;
     }
-
     .header_menu a {
         margin-right: 32px;
         padding-left: 11px;
         margin-top: 22px;
     }
-
     .header_menu li {
         display: inline-block;
     }
-
     .phone {
         display: block;
         position: absolute;
         width: 100%;
         left: 0;
         background: url("../img/phone2.png") -825px center no-repeat;
-        margin-top: 50px;
+        margin-top: 48px;
         height: 432px;
         z-index: -1;
     }
-
-    .menu_p3 {
-        display: block;
+    .slider_img div {
+        display: none;
     }
-
+    .menu_p {
+        width: 419px;
+    }
     .menu {
-        margin-top: 143px;
+        margin-top: 141px;
     }
-
     .menu_p1 {
         font-size: 48px;
         padding: 27px 0 0 21px;
     }
-
     .menu_p2 {
         font-size: 25px;
         padding-top: 5px;
         padding-left: 18px;
         letter-spacing: -0.28px;
+        width: 281px;
+        height: 28px;
+        overflow: hidden;
     }
-
     .menu_p3 {
+        display: block;
         font-family: "OpenSansLight", sans-serif;
         color: white;
-        width: 275px;
+        width: 280px;
         padding-left: 18px;
-        padding-top: 4px;
+        padding-top: 0px;
         line-height: 1.69;
         letter-spacing: -0.12px;
+        overflow: hidden;
+        height: 125px;
     }
-
+    .slider_img{
+        display: none;
+    }
     .left_img {
-        padding-bottom: 68px;
+        padding-bottom: 92px;
     }
-
     .right_img {
-        padding-left: 427px;
-        padding-bottom: 68px;
+        position: absolute;
+        top: 425px;
+        right: -9px;
     }
-
     .slider {
         margin-left: 391px;
-        margin-top: 67px;
+        margin-top: 49px;
     }
-
     .base2 {
         height: 342px;
     }
-
     .base1 {
         height: 798px;
     }
-
     .about .text {
         width: 162px;
         height: 172px;
         padding-top: 75px;
     }
-
     .about .icon {
         margin-top: 78px;
         margin-right: 21px;
     }
-
     .about1 .icon {
         margin-left: 35px;
         margin-top: 27px;
         margin-right: 18px;
     }
-
     .about2 .icon {
         margin-top: 42px;
         margin-left: 46px;
     }
-
     .about1 .text {
         width: 166px;
         height: 172px;
     }
-
     .about2 .text {
         width: 166px;
         height: 172px;
     }
-
     .about a, .about1 a, .about2 a {
         padding-right: 20px;
         font-size: 18px;
         padding-top: 7px;
     }
-
     .div1 {
         width: 275px;
         height: 245px;
@@ -863,69 +747,55 @@ footer span {
         padding: 28px 0 0 37px;
         position: absolute;
     }
-
     .div1 h3 {
         padding-bottom: 12px;
     }
-
     .div1 p {
         height: 143px;
         padding: 0 0 0 0;
         width: 271px;
     }
-
     .slider1 {
         text-align: left;
         padding-left: 154px;
         position: absolute;
         top: 395px;
     }
-
     .news {
         float: right;
-        padding-right: 39px;
-        margin-top: 108px;
+        padding-right: 73px;
+        margin-top: 127px;
     }
-
     .news h2 {
         padding: 0 0 7px 11px;
         letter-spacing: 0.6px;
     }
-
     .news2 img {
         padding: 11px 0 0 11px;
     }
-
     .news2 h3 {
         padding: 9px 0 0 78px;
-
     }
-
     .news3 img {
         padding: 5px 0 0 11px;
     }
-
     .news3 h3 {
         padding: 4px 0 0 78px;
 
     }
-
     .news a {
-        margin-right: -4px;
+        margin-right: -39px;
         margin-top: 14px;
     }
-
     .brend {
         margin: 0 auto;
-        padding-top: 57px;
+        padding-top: 61px;
         display: inline-block;
         position: relative;
     }
-
     .bilabong {
         padding-left: 15px;
     }
-
     .broom {
         padding-left: 52px;
     }
@@ -939,9 +809,9 @@ footer span {
         background: #ececec;
         display: block;
     }
-
     .base3 {
         height: 606px;
+        position: relative;
     }
     .content_pigbuller {
         display: none;
@@ -953,7 +823,6 @@ footer span {
         font-weight: lighter;
         padding: 100px 0 0 10px;
     }
-
     .content p, .content2 p, .content3 p {
         font-family: "OpenSansLight", sans-serif;
         padding: 9px 46px 0 10px;
@@ -965,7 +834,6 @@ footer span {
         overflow: hidden;
         letter-spacing: 0.42px;
     }
-
     .content2 h2 {
         font-weight: lighter;
         padding: 52px 0 0 20px;
@@ -975,21 +843,17 @@ footer span {
         font-weight: lighter;
         padding: 54px 0 0 28px;
     }
-
     .content, .content2, .content3 {
         display: inline-block;
     }
-
     .footer_menu {
         display: inline-block;
         text-align: left;
         width: 768px;
     }
-
     .footer_menu ul {
         float: left;
     }
-
     .footer_menu li {
         display: inline-block;
         margin-top: 43px;
@@ -997,13 +861,11 @@ footer span {
         margin-left: 10px;
         text-align: left;
     }
-
     .footer_menu a {
         text-decoration: none;
         color: white;
         font-size: 21px;
     }
-
     footer p {
         padding-top: 29px;
         text-align: right;
@@ -1014,12 +876,11 @@ footer span {
 @media only screen and (max-width: 10240px) and (min-width: 960px) {
     .conteiner {
         width: 960px;
+        position: relative;
     }
-
     .base1 {
         height: 846px;
     }
-
     .header_logo {
         padding-left: 15px;
         display: inline-block;
@@ -1028,22 +889,17 @@ footer span {
     .header_logo span {
         padding-left: 2px;
     }
-
     .header_menu {
         display: inline-block;
         vertical-align: top;
         margin-top: 48px;
-
     }
-
     .header_menu li {
         display: inline-block;
     }
-
     li.active {
         padding-left: 165px;
     }
-
     li.select {
         padding-left: 23px;
         padding-right: 37px;
@@ -1052,15 +908,12 @@ footer span {
     li.select1 {
         padding-left: 38px;
     }
-
     li.select2 {
         padding-left: 38px;
     }
-
     li.select3 {
         padding-left: 31px;
     }
-
     .phone {
         display: block;
         position: absolute;
@@ -1084,14 +937,14 @@ footer span {
         padding: 100px 0 0 0;
         font-size: 59px;
         letter-spacing: -0.25px;
-        margin: 0 0 0px 0;
+        margin: 0 0 0 0;
     }
     .menu_p2 {
         line-height: 1;
         font-size: 32px;
         padding-left: 0;
         font-weight: 500;
-        padding-top: 0px;
+        padding-top: 0;
     }
     .menu_p3 {
           display: block;
@@ -1103,7 +956,7 @@ footer span {
           font-size: 17px;
           padding-left: 0;
       }
-    .slider_img{
+    div.slider_img{
         display: inline-block;
         float: right;
         margin-right: 70px;
@@ -1167,7 +1020,7 @@ footer span {
         font-size: 17px;
         font-weight: 300;
         line-height: 24px;
-        letter-spacing: -0.4px;
+        letter-spacing: -0.8px;
         padding-top: 4px;
     }
     .about .icon {
@@ -1196,12 +1049,11 @@ footer span {
         height: 606px;
     }
     .div1 {
-        width: 422px;
+        width: 415px;
         padding: 0 0 0 0;
         margin: 99px 0 0 27px;
         height: 227px;
     }
-
     .div1 h2 {
     padding: 27px 0 0 37px;
     font-size: 29px;
@@ -1222,14 +1074,15 @@ footer span {
     }
     .news {
         display: inline-block;
-        position: static;
+        position: absolute;
+        right: 0;
+        top: 126px;
     }
     .news1 h2 {
-        padding: 0px 0 16px 59px;
-        /* display: inline-block; */
+        padding: 0 0 16px 59px;
     }
     .news1 h3 {
-        padding: 0px 0 0px 126px;
+        padding: 0 0 0 126px;
         font-size: 17px;
         width: 380px;
         letter-spacing: 0.2px;
@@ -1277,7 +1130,7 @@ footer span {
 
     }
     .news3 h3 {
-        padding: 0px 0 0px 126px;
+        padding: 0 0 0 126px;
         font-size: 17px;
         width: 380px;
         letter-spacing: 0.2px;
@@ -1286,7 +1139,7 @@ footer span {
 }
     .news3 p {
 
-        padding: 0px 0 0px 126px;
+        padding: 0 0 0 126px;
         height: 23px;
         width: 376px;
         line-height: 2;
@@ -1299,11 +1152,11 @@ footer span {
         display: inline-block;
         padding-left: 0;
         position: absolute;
-        left: 662px;
+        left: 200px;
         margin-top: 395px;
     }
     .brend {
-        margin: 56px 0 0 39px;
+        margin: 111px 0 0 39px;
     }
     .dc {
         padding-left: 63px;
@@ -1362,7 +1215,7 @@ footer span {
         font-size: 47px;
         display: inline-block;
         position: absolute;
-        left: 462px;
+        left: 0;
         padding-top: 91px;
         color: #646464;
         font-weight: 300;
