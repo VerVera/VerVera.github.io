@@ -23,6 +23,9 @@ body {
 .base1 {
     height: 515px;
 }
+.phone1 {
+    display: none;
+}
 header {
     width: 100%;
     height: 516px;
@@ -153,7 +156,6 @@ div.slider_img  {
     -moz-box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.4);
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.4);
 }
-
 .about, .about1, .about2 {
     /* overflow: hidden; */
 }
@@ -231,7 +233,6 @@ article p {
     font-family: "OpenSansLight", sans-serif;
     line-height: 20px;
 }
-
 .div1 img {
     position: absolute;
     top: 18px;
@@ -394,6 +395,9 @@ footer span {
 
     .base1 {
         height: 549px;
+    }
+    .phone1 {
+        display: none;
     }
       .conteiner {
         min-width: 480px;
@@ -643,6 +647,9 @@ footer span {
     }
     .header_menu li {
         display: inline-block;
+    }
+    .phone1 {
+        display: none;
     }
     .phone {
         display: block;
@@ -914,15 +921,18 @@ footer span {
     li.select3 {
         padding-left: 31px;
     }
+    .phone1 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background: url("../img/phone3.png") -257px center repeat;
+    margin-top: 265px;
+    height: 426px;
+    z-index: -1;
+    }
     .phone {
-        display: block;
-        position: absolute;
-        width: 100%;
-        left: 0;
-        background: url("../img/phone3.png") -257px center repeat;
-        margin-top: 146px;
-        height: 426px;
-        z-index: -1;
+        display: none;
     }
     .menu {
         margin-top: 140px;
@@ -931,7 +941,6 @@ footer span {
     }
     .menu_p {
         width: 500px;
-
     }
     .menu_p1 {
         padding: 100px 0 0 0;
@@ -1031,7 +1040,6 @@ footer span {
  }
     .about2 .icon {
         margin: 79px 22px 0 34px;
-
 }
     .about a {
         bottom: -27px;
@@ -1102,7 +1110,6 @@ footer span {
 }
     .news2 {
         padding: 0px 0 0px 0;
-
 }
     .news2 img {
         padding: 6px 0 0 59px;
@@ -1123,11 +1130,9 @@ footer span {
     }
     .news3 {
        padding: 0px 0 0px 0;
-
     }
     .news3 img {
         padding: 20px 0 0 60px;
-
     }
     .news3 h3 {
         padding: 0 0 0 126px;
@@ -1185,7 +1190,6 @@ footer span {
         display: inline-block;
         width: 316px;
     }
-
     .content_pigbuller p, .content_recent p, .content3 p {
         font-family: "OpenSansLight", sans-serif;
         line-height: 24px;
@@ -1194,22 +1198,18 @@ footer span {
         overflow: hidden;
         letter-spacing: 0.42px;
         font-size: 17px;
-
     }
     .content_pigbuller p {
         padding-top: 5px;
         height: 124px;
 }
-
     .content_recent p {
         padding: 10px 0 0 21px;
         height: 172px;
-
 }
     .content3 p {
         padding: 10px 0 0 43px;
         height: 172px;
-
 }
     .content_pigbuller h2 {
         font-size: 47px;
@@ -1226,14 +1226,11 @@ footer span {
         font-size: 18px;
         font-style: italic;
         color: grey;
-
 }
     .content_pigbuller span {
         color: darkgray;
     }
-
     .content_recent h2 {
-
         display: inline-block;
         padding-left: 20px;
         font-size: 26px;
@@ -1252,11 +1249,9 @@ footer span {
         text-align: left;
         width: 979px;
     }
-
     .footer_menu ul {
         float: left;
     }
-
     .footer_menu li {
         display: inline-block;
         margin-top: 43px;
@@ -1264,17 +1259,14 @@ footer span {
         margin-left: 10px;
         text-align: left;
     }
-
     .footer_menu a {
         text-decoration: none;
         color: white;
         font-size: 20px;
     }
-
     footer p {
         padding-top: 0px;
         text-align: right;
         padding-right: 457px;
-        
     }
 }
