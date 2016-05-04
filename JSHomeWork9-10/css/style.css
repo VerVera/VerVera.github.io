@@ -26,7 +26,6 @@ select {
     display: inline-block;
     vertical-align: top;
     margin-right: 50px;
-
 }
 .my_checkbox {
     width: 17px;
@@ -35,7 +34,10 @@ select {
     cursor: pointer;
     background: url(../img/checkbox-sprite.png);
 }
-
+div.my_form {
+    margin: 0 auto;
+    width: 920px;
+}
 .my_checkbox input {
     display: none;
 }
