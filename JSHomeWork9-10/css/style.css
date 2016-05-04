@@ -34,7 +34,7 @@ select {
     cursor: pointer;
     background: url(../img/checkbox-sprite.png);
 }
-div.my_form {
+.my_form {
     margin: 0 auto;
     width: 920px;
 }
