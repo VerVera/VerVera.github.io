@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #000;
+}
+#gallery {
+    margin: 150px auto;
+    max-height: 300px;
+}
+.wrapper {
+    height: 300px;
+
+}
+select {
+
+    width: 150px;
+}
+.select2 {
+    margin-left: 150px;
+    margin-right: 50px;
+}
+
+.my_form>div{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 50px;
+
+}
+.my_checkbox {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    cursor: pointer;
+    background: url(../img/checkbox-sprite.png);
+}
+
+.my_checkbox input {
+    display: none;
+}
+#nav {
+  overflow: hidden;
+
+}
+#nav ul{
+    z-index: 999;
+    position: relative;
+}
+
+li {
+    list-style: none;
+    float: left;
+    width: 140px;
+}
+a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    background: #444;
+    display: block;
+    margin: 3px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+li a:hover {
+    background: #ccc;
+    color: #444;
+}
+li ul {
+    display: none;
+}
+
+li ul li {
+opacity:0;
+    height: 0;
+}
+.sub-menu {
+    z-index: 500;
+}
+.sub-menu a {
+    background: #ccc;
+    color: #444;
+}
+.sub-menu a:hover {
+        background: #999;
+        color: #eee;
+}
+.selected {
+    background: #ccc;
+    color: #444;
+}
+
+.menu {
+    height: 50px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.my_form div.check-container-2 span:not(.my_checkbox){
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+

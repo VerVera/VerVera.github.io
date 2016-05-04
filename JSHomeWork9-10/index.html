@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSHomeWork9-10</title>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style_checkbox.css">
+
+
+</head>
+<body>
+<div class="menu">
+    <ul id="nav">
+        <li><a href="#">Menu 1&emsp;&#9660;</a>
+            <ul class="sub-menu">
+                <li><a href="#">Sub-Menu 1</a></li>
+                <li><a href="#">Sub-Menu 2</a></li>
+                <li><a href="#">Sub-Menu 3</a></li>
+                <li><a href="#">Sub-Menu 4</a></li>
+                <li><a href="#">Sub-Menu 5</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Menu 2</a></li>
+        <li><a href="#">Menu 3&emsp;&#9660;</a>
+            <ul class="sub-menu">
+                <li><a href="#">Sub-Menu 1</a></li>
+                <li><a href="#">Sub-Menu 2</a></li>
+                <li><a href="#">Sub-Menu 3</a></li>
+                <li><a href="#">Sub-Menu 4</a></li>
+                <li><a href="#">Sub-Menu 5</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Menu 4</a></li>
+        <li><a href="#">Menu 5</a></li>
+    </ul>
+</div>
+<div class="wrapper">
+    <div id="gallery">
+        <img src="./img/1.jpg" alt=""/>
+        <img src="./img/2.jpg" alt=""/>
+        <img src="./img/3.jpg" alt=""/>
+        <img src="./img/4.jpg" alt=""/>
+        <img src="./img/5.jpg" alt=""/>
+        <img src="./img/6.jpg" alt=""/>
+        <img src="./img/7.jpg" alt=""/>
+    </div>
+</div>
+<div class="my_form">
+    <div><select>
+        <option value="">Month&hellip;</option>
+        <option value="january">January</option>
+        <option value="february">February</option>
+        <option value="march">March</option>
+        <option value="april">April</option>
+        <option value="may">May</option>
+        <option value="june">June</option>
+        <option value="july">July</option>
+        <option value="august">August</option>
+        <option value="september">September</option>
+        <option value="october">October</option>
+        <option value="november">November</option>
+        <option value="december">December</option>
+    </select></div>
+    <div class="container">
+        <div class="check-container">
+            <input type="checkbox" id="one">
+            <label for="one"></label>
+            <span class="tag">Winter</span>
+        </div>
+        <div class="check-container">
+            <input type="checkbox" id="two">
+            <label for="two"></label>
+            <span class="tag">Spring</span>
+        </div>
+        <div class="check-container">
+            <input type="checkbox" id="three">
+            <label for="three"></label>
+            <span class="tag">Summer</span>
+        </div>
+        <div class="check-container">
+            <input type="checkbox" id="four">
+            <label for="four"></label>
+            <span class="tag">Fall</span>
+        </div>
+    </div>
+    <div class="check-container-2">
+    <span class="my_checkbox">
+            <input type="checkbox" name="check1">
+    </span><span>On</span>
+    <span class="my_checkbox">
+            <input type="checkbox" name="check2">
+    </span><span>Off</span>
+    <span class="my_checkbox">
+            <input type="checkbox" checked="checked" name="check3" disabled>
+    </span><span>Disable</span>
+</div>
+</div>
+<script src="js/script.js"></script>
+<script type="text/javascript" src="./js/jqcarousel.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
+
+
+</body>
+
+</html>
