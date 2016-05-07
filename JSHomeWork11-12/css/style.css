@@ -1,0 +1,52 @@
+body {
+    font-family: Courier New;
+    background: #000;
+}
+.container {
+    width: 665px;
+    margin: 25px auto;
+
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 25px;
+}
+img {
+    border-radius: 10px;
+}
+#my-carousel p {
+    color: #fff;
+    
+    font-style: italic;
+    font-size: 18px;
+}
+.carousel-arrow-left, .carousel-arrow-right {
+    float: left;
+    display: block;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+    background: #d934ce;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 255px;
+}
+
+.carousel-arrow-left:hover, .carousel-arrow-right:hover {
+    cursor: pointer;
+    background: #fc3c7c;
+    text-decoration: none;
+}
+
+.carousel-arrow-left {
+    margin-right: 25px;
+}
+
+.carousel-arrow-right {
+    margin-left: 25px;
+}
