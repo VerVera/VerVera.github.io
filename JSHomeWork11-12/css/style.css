@@ -24,10 +24,11 @@ body,html {
     color: #000000;
 }
 .container {
-    width: 665px;
+    width: 500px;
     margin: 25px auto;
 }
 h1 {
+    padding-top: 25px;
     text-align: center;
     font-weight: bold;
     font-size: 25px;
