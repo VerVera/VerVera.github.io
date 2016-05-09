@@ -1,24 +1,41 @@
-body {
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html {
+    width: 100%;
+    height: 100%;
+}
+.dark {
     font-family: Courier New;
     background: #000;
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    color: #ffffff;
+
+}
+.light {
+    font-family: Courier New;
+    background: #faebcc;
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    color: #000000;
 }
 .container {
     width: 665px;
     margin: 25px auto;
-
 }
 h1 {
     text-align: center;
     font-weight: bold;
-    color: #ffffff;
     font-size: 25px;
 }
 img {
     border-radius: 10px;
 }
 #my-carousel p {
-    color: #fff;
-    
     font-style: italic;
     font-size: 18px;
 }

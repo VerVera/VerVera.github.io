@@ -16,7 +16,7 @@
         var elLI = this.find('ul li');
         elLI.width(options.width).height(options.height);
         this.width(options.width).height(options.height);
-        elementsImg.width(options.width).height(options.height - this.find('p').height());
+        elementsImg.width(options.width).height(options.height - this.find('p').height()-5);
 
         var pixelsOffset = $(this).width() + parseInt(elLI.css('margin-right'));
         var currentLeftValue = 0;

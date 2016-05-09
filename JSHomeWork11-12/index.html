@@ -4,29 +4,26 @@
     <title>JSHomeWork11-12</title>
     <meta charset="UTF-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./plugin/v-carousel.css">
 </head>
 <body>
-<h1>Советы от гуру - Суши, по написанию быстрого и качественного кода JS!</h1>
-<div class="container">
-    <div class="carousel-arrow-left" id="arrow-left"><<<</div>
-    <div id="my-carousel">
-        <ul>
-            <li><img src="./img/1.jpg">
-                <p>1. Поймать ДЗЕН кода, сложив правильно лапы и прищурив глаза.</p></li>
-            <li><img src="./img/2.jpg">
-                <p>2. Прилечь в спокойной обстановке и обдумать алгоритм.</p></li>
-            <li><img src="./img/3.jpg">
-                <p>3. Не можете начать? Присядьте на клавиатуру, погрейтесь.</p></li>
-            <li><img src="./img/4.jpg">
-                <p>4. Примите солнечные ванны и вы поймете, что гововы приступить!</p></li>
-        </ul>
+<script type="text/html" id="template">
+    <div id="theme" class="<%=theme_name%>">
+    <h1><%=text%></h1>
+    <div class="container" id="container">
+        <div class="carousel-arrow-left" id="arrow-left"><<<</div>
+        <div id="my-carousel">
+            <ul>
+                <% for ( var i = 0; i < image.length; i++ ) { %>
+                <li><img src="<%=image[i].url%>"><p><%=image[i].description%></p></li>
+                <% } %>
+            </ul>
+        </div>
+        <div class="carousel-arrow-right" id="arrow-right">>>></div>
     </div>
-    <div class="carousel-arrow-right" id="arrow-right">>>></div>
-
-</div>
+    </div>
+</script>
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="plugin/v-carousel.js"></script>
 </body>
