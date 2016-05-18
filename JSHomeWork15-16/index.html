@@ -8,8 +8,41 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
-<
+<script type="text/html" id="template">
+    <p>Результатов: примерно <%=searchInformation.totalResults%> (<%=searchInformation.searchTime%> сек.) </p>
+    <% for ( var i = 0; i < items.length; i++ ) { %>
+    <div class="search-item">
+        <h4><a href="<%=items[i].link%>"><%=items[i].htmlTitle%></a></h4>
+        <p><%=items[i].htmlFormattedUrl%></p>
+        <p><%=items[i].htmlSnippet%></p>
+    </div>
+    <% } %>
+</script>
+<div class="navbar navbar-fixed-top navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <p><input class="form-control" type="search" name="q" placeholder="Поиск по сайту">
+                <button id="button" type="button" class="btn btn-success">Искать</button>
+            </p>
+
+        </div>
+    </div>
+</div>
+<main class="container">
+    <div class="wrapper">
+    </div>
+    <div class="not-found">
+        <p>По Вашему запросу ничего не найдено. </p>
+        <p>Рекомендации:</p>
+        <ul>
+            <li>Убедитесь, что все слова написаны без ошибок.</li>
+            <li>Попробуйте использовать другие ключевые слова.</li>
+            <li>Попробуйте использовать более популярные ключевые слова.</li>
+        </ul>
+    </div>
+</main>
 <script src="js/script.js"></script>
+<script src="js/chapter2.js"></script>
 </body>
 
 </html>

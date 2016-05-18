@@ -2,3 +2,44 @@
     margin: 0;
     padding: 0;
 }
+
+.form-control {
+    display: inline-block;
+    width: 500px;
+}
+
+.container {
+    width: 750px;
+    margin-top: 15px;
+}
+
+main.container {
+    margin-top: 70px;
+}
+
+.search-item {
+    margin-bottom: 20px;
+}
+
+.search-item p {
+    margin: 0px;
+}
+
+.search-item h4 {
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0;
+
+}
+
+.search-item h4:hover {
+    text-decoration: underline;
+}
+
+.search-item p:nth-child(2) {
+    color: #006621;
+}
+
+.not-found {
+    display: none;
+}
