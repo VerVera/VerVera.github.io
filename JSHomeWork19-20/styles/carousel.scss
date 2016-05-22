@@ -1,0 +1,63 @@
+/** Carousel **/
+.carousel {
+
+  width: $body_width;
+  height: 470px;
+  margin: 0 auto;
+
+  &__wrapper {
+    position: relative;
+  }
+
+  &__photo {
+    position: relative;
+    overflow: hidden;
+
+    ul {
+      width: 20000em;
+      position: relative;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      float: left;
+    }
+
+    img {
+      width: 1160px;
+      height: 470px;
+    }
+
+  }
+
+  /** Carousel Pagination **/
+  &__pagination {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%);
+
+    a {
+      text-decoration: none;
+      display: inline-block;
+
+      font-size: 1px;
+      line-height: 10px;
+      min-width: 10px;
+
+      background: #fff;
+      border: 3px solid white;
+      text-align: center;
+      color: #fff;
+      margin-right: 15px;
+    }
+
+  }
+  .carousel__pagination--active {
+    background: #4E443C;
+    color: #4E443C;
+    opacity: 1;
+  }
+}
