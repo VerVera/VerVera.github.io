@@ -1,19 +1,75 @@
 // Normalize Styles
 @import 'node_modules/normalize.css/normalize';
+@import "src/_styles/mixins";
 
-// Import Modules
-//@import '../_modules/link/link';
 
-// Box sizing partial styles:
-// Apply a natural box layout model to all elements
-*,
-*:before,
-*:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
 }
 
-*{
-  font-size: 10px;
+.container {
+
+  width: 100%;
+
+  .header {
+    height: 540px;
+    background: #2e2e2e url(../images/promo.png) no-repeat -421px -11px;
+    background-size: 1138px 554px;
+    color: white;
+    text-align: center;
+
+    .header__user {
+      display: inline-block;
+      margin: 0 auto;
+      padding-top: 20px;
+      width: 175px;
+      text-align: left;
+
+      button {
+        background: none;
+        border: none;
+        margin: 0 auto;
+      }
+
+      .header__login {
+        width: 64px;
+      }
+      .header__signup {
+        border: 2px solid white;
+        margin-left: 5px;
+        width: 90px;
+        height: 36px;
+        border-radius: 18px;
+        padding-left: 7px;
+      }
+    }
+
+    .header__title {
+      margin-top: 115px;
+      font-size: 20px;
+      letter-spacing: 1px;
+    }
+
+    .header__slogan {
+      font-size: 30px;
+      text-transform: uppercase;
+      margin-top: 27px;
+      margin-bottom: 0;
+    }
+    .header__sloganSmall {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      padding: 0 52px;
+      margin-top: 7px;
+      letter-spacing: 0.6px;
+    }
+
+    .header__button{
+      margin-top: 1px;
+      @include red-button-large();
+    }
+
+  }
 }

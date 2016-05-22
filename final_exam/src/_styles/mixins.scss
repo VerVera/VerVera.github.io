@@ -1,0 +1,16 @@
+@mixin red-button($height, $width) {
+  height: $height;
+  width: $width;
+  background: #ff4e50;
+  border: none;
+  border-radius: $height/2;
+  color: white;
+}
+
+@mixin red-button-large() {
+  @include red-button(40px, 280px)
+}
+
+@mixin red-button-small() {
+  @include red-button(20px, 70px)
+}

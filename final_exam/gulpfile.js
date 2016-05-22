@@ -29,7 +29,7 @@ wrench.readdirSyncRecursive('./gulp').filter(function(file) {
 
 // Default task
 gulp.task('default', ['clean'], function() {
-  gulp.start('build');
+  gulp.start('serve');
 });
 
 // Build production-ready code
