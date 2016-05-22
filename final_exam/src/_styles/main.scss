@@ -2,11 +2,22 @@
 @import 'node_modules/normalize.css/normalize';
 @import "src/_styles/mixins";
 
-
+//common
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 14px;
+}
+
+main header {
+  text-align: center;
+  font-size: 22px;
+}
+
+figure {
+  margin: 0;
+  color: white;
+  display: inline-block;
 }
 
 .container {
@@ -66,10 +77,75 @@ body {
       letter-spacing: 0.6px;
     }
 
-    .header__button{
+    .header__button {
       margin-top: 1px;
       @include red-button-large();
     }
 
+  }
+
+  .works {
+    text-align: center;
+
+    .works__title {
+
+    }
+
+    .works__item {
+
+      width: 301px;
+      height: 240px;
+
+      background: #2e2e2e url(../images/howitwork1.png) no-repeat;
+
+      button {
+        @include red-button-small();
+      }
+      h2 {
+        font-size: 24px;
+      }
+      p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+      }
+    }
+  }
+
+  .partners {
+    text-align: center;
+    .partners__item {
+      color: black;
+      p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+      }
+
+    }
+    button {
+      @include white-button-large()
+    }
+  }
+  .ideas {
+    text-align: center;
+    .ideas__item {
+      width: 300px;
+      height: 120px;
+      background: #2e2e2e url(../images/idea1.png) no-repeat;
+      figcaption {
+        margin-top: 50px;
+        font-size: 22px;
+      }
+    }
+  }
+  .search {
+    text-align: center;
+    label {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      font-size: 18px;
+    }
+    button {
+      @include red-button-large();
+    }
   }
 }
