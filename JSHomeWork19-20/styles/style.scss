@@ -266,8 +266,6 @@ body {
   }
 }
 
-
-
 .main {
   background-color: #f7f7f7;
 
@@ -275,7 +273,6 @@ body {
     margin: 0 auto;
     width: $body_width;
     min-height: 540px;
-    overflow: hidden;
     @include clearfix();
   }
 
