@@ -242,8 +242,7 @@ body {
   .main .main__wrapper {
     margin: 0 auto;
     width: 1160px;
-    min-height: 540px;
-    overflow: hidden; }
+    min-height: 540px; }
     .main .main__wrapper:before, .main .main__wrapper:after {
       content: "";
       display: table; }
