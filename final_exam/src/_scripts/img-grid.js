@@ -1,4 +1,8 @@
 $(function () {
+    if ($("html").hasClass("ie8")) {
+        return
+    }
+    
     var $grid = $('.ideas_grid');
     var w = $grid.width();
     console.log(w);
@@ -15,13 +19,13 @@ $(function () {
             return
         }
         var columnWidth = 300;
-        if (newW>=768){
+        if (newW >= 768) {
             columnWidth = newW / 3
         }
-         
+
         $grid.masonry('option', {columnWidth: columnWidth});
         w = newW;
-        
+
 
     });
 

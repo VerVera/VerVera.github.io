@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "css3-mediaqueries-js": "^1.0.0",
-    "jquery": "~2.2.0",
+    "jquery": "~1.12.4",
     "masonry-layout": "^4.1.0",
     "normalize.css": "~3.0.3"
   },
