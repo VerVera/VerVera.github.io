@@ -1,4 +1,9 @@
 'use strict';
-1138px 554px;
-1440px 700px;
-        0.79
+document.createElement('main');
+document.createElement('section');
+document.createElement('nav');
+document.createElement('header');
+document.createElement('article');
+document.createElement('figure');
+document.createElement('figcaption');
+document.createElement('footer');

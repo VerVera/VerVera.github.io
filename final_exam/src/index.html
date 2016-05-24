@@ -7,16 +7,21 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,300italic' rel='stylesheet' type='text/css'>
     <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+    <script src="scripts/css3-mediaqueries.js"></script>
+    <![endif]-->
     <script src="scripts/main.js"></script>
 </head>
 <body>
 <div class="container">
     <header class="header">
-        <div class="header__user">
-            <button class="header__login">Log in</button>
-            <button class="header__signup">Sign up</button>
+        <div class="header__top">
+            <div class="header__user">
+                <button class="header__login">Log in</button>
+                <button class="header__signup">Sign up</button>
+            </div>
+            <h2>URLAUBSGLÜCK</h2>
         </div>
-        <h2 class="header__title">URLAUBSGLÜCK</h2>
         <h1 class="header__slogan">Share your holiday dreams</h1>
         <h3 class="header__sloganSmall">And find the perfect partner to fullfill it</h3>
         <button class="header__button">Find your holiday partner</button>
@@ -24,46 +29,58 @@
     <main>
         <section class="works">
             <header class="works__title">How Urlaubsglück works?</header>
-            <figure class="works__item works__item--step1">
+            <div class="works__item works__item--step1">
+                <a class="works__arrow works__arrow--left" href="#"><img src="/images/arrow_left.png" alt="left"></a>
+                <a class="works__arrow works__arrow--right" href="#"><img src="/images/arrow_right.png" alt="right"></a>
                 <button>STEP 1</button>
-                <h2>Sed leo enim,
-                    condimentum</h2>
-                <p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
-            </figure>
-            <figure class="works__item works__item--step2">
+                <h2>Sed leo enim, condimentum</h2>
+                <p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet
+                    facilisis.</p>
+            </div>
+            <div class="works__item works__item--step2">
+                <a class="works__arrow works__arrow--left" href="#"><img src="/images/arrow_left.png" alt="left"></a>
+                <a class="works__arrow works__arrow--right" href="#"><img src="/images/arrow_right.png" alt="right"></a>
                 <button>STEP 2</button>
                 <h2>Morbi velit risus</h2>
                 <p>Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
-            </figure>
-            <figure class="works__item works__item--step3">
+            </div>
+            <div class="works__item works__item--step3">
+                <a class="works__arrow works__arrow--left" href="#"><img src="/images/arrow_left.png" alt="left"></a>
+                <a class="works__arrow works__arrow--right" href="#"><img src="/images/arrow_right.png" alt="right"></a>
                 <button>STEP 3</button>
-                <h2>Sed leo enim,
-                    condimentum</h2>
-                <p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
-            </figure>
+                <h2>Sed leo enim, condimentum</h2>
+                <p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet
+                    facilisis.</p>
+            </div>
         </section>
         <section class="partners">
             <header class="partners__title">Meet a partner for your best holiday</header>
-            <figure class="partners__item">
-                <img src="./images/partners1.png" alt="Bradley Hunter">
-                <figcaption>Bradley Hunter</figcaption>
-                <p>Based in Chicago. I love playing tennis and loud music.</p>
-            </figure>
-            <figure class="partners__item">
-                <img src="./images/partners3.png" alt="Lucas Marsha">
-                <figcaption>Lucas Marsha</figcaption>
-                <p>I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
-            </figure>
-            <figure class="partners__item">
-                <img src="./images/partners2.png" alt="Heather Walker">
-                <figcaption>Heather Walker</figcaption>
-                <p>I'm a happy person that loves cats and climbing on mountains.</p>
-            </figure>
-            <figure class="partners__item">
-                <img src="./images/partners4.png" alt="Bradley Hunter">
-                <figcaption>Bradley Hunter</figcaption>
-                <p>Based in Chicago. I love playing tennis and loud music.</p>
-            </figure>
+            <div class="partners__group">
+                <figure class="partners__item">
+                    <img src="./images/partners1.png" alt="Bradley Hunter">
+                    <figcaption>Bradley Hunter</figcaption>
+                    <p>Based in Chicago. I love playing tennis and loud music.</p>
+                </figure>
+                <figure class="partners__item">
+                    <img src="./images/partners3.png" alt="Lucas Marsha">
+                    <figcaption>Lucas Marsha</figcaption>
+                    <p>I get my inspiration from nature and objects around me. I have a passion to colours, typography
+                        and
+                        skateboards.</p>
+                </figure>
+            </div>
+            <div class="partners__group">
+                <figure class="partners__item">
+                    <img src="./images/partners2.png" alt="Heather Walker">
+                    <figcaption>Heather Walker</figcaption>
+                    <p>I'm a happy person that loves cats and climbing on mountains.</p>
+                </figure>
+                <figure class="partners__item">
+                    <img src="./images/partners4.png" alt="Bradley Hunter">
+                    <figcaption>Bradley Hunter</figcaption>
+                    <p>Based in Chicago. I love playing tennis and loud music.</p>
+                </figure>
+            </div>
             <div>
                 <button>See other partners</button>
             </div>
