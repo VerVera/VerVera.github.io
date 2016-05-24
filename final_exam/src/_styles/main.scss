@@ -325,6 +325,16 @@ figure {
   }
 }
 
+//fix image backgound small size
+@media only screen and (min-width: 700px) {
+  .container {
+    .header {
+      background-position: -337px 0px;
+      background-size: 1440px 700px;
+    }
+  }
+}
+
 @media only screen and (min-width: 768px) {
 
   .container {
@@ -386,24 +396,33 @@ figure {
         .works__arrow {
           display: block;
           position: absolute;
+          top: 40px;
+
           &--left {
-            top: 0;
-            left: 0;
+            left: 20px;
           }
           &--right {
-            top: 0;
-            right: 0;
+            right: 20px;
+          }
+
+          &--left2 {
+            left: 10px;
+          }
+          &--right2 {
+            right: 10px;
           }
         }
         button {
-
+          margin-top: 213px;
+          margin-left: 20px;
         }
         h2 {
-
+          margin: 14px 0 0 18px;
         }
 
         p {
-
+          margin: 11px 10px 0 18px;
+          line-height: 17px;
         }
 
         &--step1 {
@@ -414,7 +433,7 @@ figure {
         &--step2 {
           background: url(../images/tablet/howitwork2.png) $color_grey_dark no-repeat;
           button {
-
+            margin-top: 260px;
           }
         }
 
@@ -557,5 +576,198 @@ figure {
         }
       }
     }
+  }
+}
+
+//fix image backgound small size
+@media only screen and (min-width: 1000px) {
+  .container {
+    .header {
+      background-position: 0 0;
+
+    }
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    .header {
+      background-position: 0 0;
+      .header__top {
+        padding: 0 200px;
+        .header__user {
+          .header__signup {
+            margin-left: 4px;
+          }
+        }
+      }
+      .header__slogan {
+        padding: 0 450px;
+      }
+    }
+
+    .works {
+
+      .works__title {
+        margin-left: 0;
+        margin-right: 1px;
+      }
+
+      .works__item {
+        width: 300px;
+        height: 400px;
+
+        .works__arrow {
+          top: 155px;
+
+          &--left {
+            left: 20px;
+          }
+          &--right {
+            right: 20px;
+          }
+
+          &--left2 {
+            left: 20px;
+          }
+          &--right2 {
+            right: 20px;
+          }
+        }
+        button {
+          margin-top: 230px;
+        }
+        h2 {
+          margin: 15px 0 0 19px;
+        }
+
+        p {
+
+        }
+
+        &--step1 {
+          background: url(../images/desktop/howitwork1.png) $color_grey_dark no-repeat;
+
+        }
+
+        &--step2 {
+          background: url(../images/desktop/howitwork2.png) $color_grey_dark no-repeat;
+          button {
+            margin-top: 260px;
+          }
+        }
+
+        &--step3 {
+
+          background: url(../images/desktop/howitwork3.png) $color_grey_dark no-repeat;
+        }
+      }
+    }
+
+    .partners {
+      .partners__title {
+        margin-left: 4px;
+      }
+
+      .partners__group {
+        width: auto;
+      }
+      .partners__item {
+        width: 237px;
+        p {
+          padding: 0 9px;
+        }
+      }
+
+      button {
+        margin-right: 0;
+        width: 192px;
+      }
+    }
+
+    .ideas {
+      padding: 0 100px;
+
+      .idea__title {
+        margin-top: 96px;
+        margin-bottom: 27px;
+      }
+      .ideas__item {
+
+        margin-bottom: 9px;
+
+        img {
+          width: 300px;
+          height: 310px;
+        }
+
+        &--1 {
+        }
+
+        &--2 {
+        }
+
+        &--3 {
+          margin-right: 0;
+        }
+
+        &--4 {
+
+        }
+
+        &--5 {
+          margin-right: 0;
+          img {
+            width: 620px;
+          }
+        }
+
+        &--6 {
+          img {
+            width: 620px;
+          }
+        }
+
+        &--7 {
+          margin-right: 0;
+        }
+
+      }
+    }
+
+    .search {
+      p {
+        margin-top: 30px;
+        margin-right: 3px;
+        margin-bottom: 27px;
+      }
+    }
+
+    .footer {
+      text-align: left;
+
+      .footer__brand {
+        margin-left: 250px;
+        margin-right: 81px;
+      }
+
+      .footer__company {
+        margin-right: 76px;
+      }
+
+      .footer__partenrs {
+        margin-right: 367px;
+      }
+
+      .footer__design {
+        p {
+          margin-bottom: 8px;
+        }
+      }
+    }
+
   }
 }
