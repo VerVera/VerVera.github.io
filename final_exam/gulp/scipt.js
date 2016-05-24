@@ -1,27 +1,17 @@
 'use strict';
 
 var path = require('path');
-var gulpif = require('gulp-if');
-var pngquant = require('imagemin-pngquant');
+var uglify  = require('gulp-uglify');
+var concat = require('gulp-concat');
 
-module.exports = function(gulp, plugins, args, config, taskTarget, browserSync) {
+module.exports = function (gulp, plugins, args, config, taskTarget, browserSync) {
     var dirs = config.directories;
-    var dest = path.join(taskTarget, dirs.images.replace(/^_/, ''));
-
-    return gulp.src('./lib/*.js')
-        .pipe(concat('all.js'))
-        .pipe(uglify())
-        .pipe(gulp.dest('./dist/'));
+    var dest = path.join(taskTarget, dirs.scripts.replace(/^_/, ''));
     
-    // Imagemin
-    gulp.task('imagemin', function() {
-        return gulp.src(path.join(dirs.source, dirs.images, '**/*.{jpg,jpeg,gif,svg,png}'))
-            .pipe(plugins.changed(dest))
-            .pipe(gulpif(args.production, plugins.imagemin({
-                progressive: true,
-                svgoPlugins: [{removeViewBox: false}],
-                use: [pngquant({speed: 10})]
-            })))
+    gulp.task('script', function () {
+        return gulp.src(path.join(dirs.source, dirs.scripts, '/*.js'))
+            .pipe(concat('all.js'))
+            //.pipe(uglify())
             .pipe(gulp.dest(dest));
     });
 };
