@@ -184,12 +184,17 @@ figure {
   .ideas {
     text-align: center;
     .idea__title {
-      margin-bottom: 4px;
+      margin-bottom: 11px;
     }
 
+    .ideas_grid{
+      width: 300px;
+
+      margin: 0 auto;
+    }
     .ideas__item {
       color: white;
-      margin-top: 7px;
+      margin: 0 0 10px 0;
       border-radius: 5px;
       position: relative;
 
@@ -209,15 +214,15 @@ figure {
       }
 
       &--1 {
-        margin-top: 7px;
+        //margin-top: 7px;
       }
 
       &--2 {
-        margin-top: 7px;
+        // margin-top: 7px;
       }
 
       &--3 {
-        margin-top: 5px;
+        // margin-top: 5px;
 
         figcaption {
           width: 200px;
@@ -233,12 +238,12 @@ figure {
       }
 
       &--6 {
-        margin-top: 4px;
+        //margin-top: 4px;
 
       }
 
       &--7 {
-        margin-top: 7px;
+        //margin-top: 7px;
 
       }
     }
@@ -247,7 +252,7 @@ figure {
     text-align: center;
 
     .search__title {
-      margin-top: 31px;
+      margin-top: 26px;
     }
 
     p {
@@ -473,12 +478,15 @@ figure {
     .ideas {
       .idea__title {
         margin-top: 96px;
-        margin-bottom: 26px;
+        margin-bottom: 34px;
+      }
+      .ideas_grid {
+        width: 768px;
+        margin: 0 auto;
       }
       .ideas__item {
 
-        margin-right: 16px;
-        margin-bottom: 8px;
+        margin: 0 10px 20px 10px;
 
         img {
           width: 236px;
@@ -492,7 +500,7 @@ figure {
         }
 
         &--3 {
-          margin-right: 0;
+          //margin-right: 0;
         }
 
         &--4 {
@@ -500,7 +508,7 @@ figure {
         }
 
         &--5 {
-          margin-right: 0;
+          //margin-right: 0;
           img {
             width: 492px;
           }
@@ -513,14 +521,14 @@ figure {
         }
 
         &--7 {
-          margin-right: 0;
+          //margin-right: 0;
         }
       }
 
     }
     .search {
       .search__title {
-        margin-top: 82px;
+        margin-top: 70px;
       }
       p {
         margin-top: 29px;
@@ -693,11 +701,13 @@ figure {
 
       .idea__title {
         margin-top: 96px;
-        margin-bottom: 27px;
+        margin-bottom: 34px;
+      }
+
+      .ideas_grid {
+        width: 960px;
       }
       .ideas__item {
-
-        margin-bottom: 9px;
 
         img {
           width: 300px;
@@ -711,7 +721,7 @@ figure {
         }
 
         &--3 {
-          margin-right: 0;
+          //margin-right: 0;
         }
 
         &--4 {
@@ -719,7 +729,7 @@ figure {
         }
 
         &--5 {
-          margin-right: 0;
+          //margin-right: 0;
           img {
             width: 620px;
           }
@@ -732,13 +742,16 @@ figure {
         }
 
         &--7 {
-          margin-right: 0;
+          //margin-right: 0;
         }
 
       }
     }
 
     .search {
+      .search__title {
+        margin-top: 75px;
+      }
       p {
         margin-top: 30px;
         margin-right: 3px;
