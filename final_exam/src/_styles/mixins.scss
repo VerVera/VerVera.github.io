@@ -1,0 +1,65 @@
+$color_grey_light: #cccccc;
+$color_grey: #666666;
+$color_grey_dark: #333333;
+$color_grey_2:#999999;
+$color_red: #ff4e50;
+
+@mixin button($height, $width, $color) {
+  height: $height;
+  width: $width;
+  background: $color;
+  border-radius: $height/2;
+
+}
+
+@mixin red-button-large() {
+  border: none;
+  color: white;
+  @include button(40px, 280px, $color_red)
+}
+
+@mixin red-button-small() {
+  border: none;
+  color: white;
+  font-size: 10px;
+  letter-spacing: 1.9px;
+  padding: 0 0 2px 4px;
+  @include button(20px, 70px, $color_red)
+}
+
+@mixin white-button-large() {
+  border: 3px solid $color_red;
+  color: $color_red;
+  @include button(40px, 280px, #FFFFFF)
+}
+
+@mixin roboto-font($size) {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: $size;
+}
+
+@mixin roboto-font-grey($size) {
+  @include roboto-font ($size);
+  color: $color_grey;
+}
+
+@mixin roboto-font-grey-2($size) {
+  @include roboto-font ($size);
+  color: $color_grey_2;
+}
+
+@mixin roboto-font-light($size) {
+  @include roboto-font ($size);
+  color: $color_grey_light;
+}
+
+@mixin roboto-font-dark($size) {
+  @include roboto-font ($size);
+  color: $color_grey_dark;
+}
+
+@mixin roboto-font-white($size) {
+  @include roboto-font ($size);
+  color: white;
+}
