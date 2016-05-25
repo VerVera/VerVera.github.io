@@ -6,6 +6,7 @@ var browserSyncLib = require('browser-sync');
 var pjson = require('./package.json');
 var minimist = require('minimist');
 var wrench = require('wrench');
+var runSequence = require('run-sequence');
 
 
 // Load all gulp plugins based on their names
@@ -20,26 +21,47 @@ var taskTarget = args.production ? dirs.destination : dirs.temporary;
 // Create a new browserSync instance
 var browserSync = browserSyncLib.create();
 
-// This will grab all js in the `gulp` directory
-// in order to load all gulp tasks
-wrench.readdirSyncRecursive('./gulp').filter(function (file) {
-    return (/\.(js)$/i).test(file);
-}).map(function (file) {
-    require('./gulp/' + file)(gulp, plugins, args, config, taskTarget, browserSync);
-});
+function pre() {
+    wrench.readdirSyncRecursive('./gulp').filter(function (file) {
+        return (/\.(js)$/i).test(file);
+    }).map(function (file) {
+        require('./gulp/' + file)(gulp, plugins, args, config, taskTarget, browserSync);
+    });
+}
 
 // Default task
-gulp.task('default', ['clean'], function () {
+gulp.task('default', function () {
     gulp.start('serve');
 });
 
-// Server tasks with watch
-gulp.task('serve', [
+gulp.task('internal:build', [
     'imagemin',
     'copy',
     'copyNPM',
     'sass',
-    'script',
+    'script']);
+
+gulp.task('internal:serve', [
     'browserSync',
-    'watch'
-]);
+    'watch']);
+
+// Server tasks with watch
+gulp.task('serve', function () {
+    pre();
+    runSequence(
+        'clean',
+        'internal:build',
+        'internal:serve'
+    );
+});
+
+// Server tasks with watch
+gulp.task('build', function () {
+    taskTarget = dirs.destination;
+    pre();
+    runSequence(
+        'clean',
+        'internal:build'
+    );
+});
+
