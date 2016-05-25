@@ -38,39 +38,3 @@
     };
 })();
 
-var el1 = $('.wrapper');
-var el2 = tmpl("template", quizLocal);
-el1.html(el2);
-
-function checkAnswers() {
-
-    //1. input c ok и не отмеченый = 0
-    if ($('input[data-value]:not(:checked)').length == 0 &&
-            //2. input без ок отмеченй = 0
-        $('input:checked:not(input[data-value])').length == 0 &&
-            //3. input c ok и отмеченый > 0
-        $('input[data-value]:checked').length > 0) {
-        return true
-    }
-
-    return false;
-}
-
-$(function () {
-    $('#result_button').on('click', (function () {
-        var result = $('#popup_name p');
-        if (checkAnswers()) {
-            result.html('Верно! Вы любите кошек!');
-        } else {
-            result.html('Вы не прошли тест!')
-        }
-
-        $('#popup_name').show(500);
-
-    }));
-    $('.popup_button').click(function () {
-        $('input:checked').attr("checked", false);
-        $('#popup_name').hide(1000);
-    });
-});
-
