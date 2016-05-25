@@ -29,17 +29,19 @@ $(function () {
 
     function getImg(s) {
 
-        $.get('http://api.pixplorer.co.uk/image', {
-            'word': s,
-            'amount': 7,
-            size: 'M',
+        $.get('https://pixabay.com/api/', {
+            'key':'2634395-4f65232da7da7981f8a40c72d',
+            'q': s,
+            'min_width':320,
+            'per_page': 7,
+            'page':1,
             r: +Math.random()
         }, function (data) {
-            if (data.status == "success" && data.count > 0) {
+            if (data.hits && data.total > 0) {
 
                 $('.ideas__item').each(function (i, item) {
-                    $(item).find('img').attr('src', data.images[i].imageurl);
-                    $(item).find('figcaption').text(data.images[i].word);
+                    $(item).find('img').attr('src', data.hits[i].webformatURL);
+                    $(item).find('figcaption').text(data.hits[i].tags);
                     if (Math.round(Math.random())) {
                         $(item).toggleClass('ideas__item--big')
                     }
