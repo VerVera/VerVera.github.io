@@ -15,7 +15,7 @@ module.exports = function(gulp, plugins, args, config, taskTarget, browserSync) 
       .pipe(gulpif(1, plugins.imagemin({
         progressive: true,
         svgoPlugins: [{removeViewBox: false}],
-        use: [pngquant({speed: 10})]
+        use: [pngquant({speed: 3, quality:30 })]
       })))
       .pipe(gulp.dest(dest));
   });
