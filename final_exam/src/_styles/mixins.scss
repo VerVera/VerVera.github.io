@@ -39,25 +39,6 @@ $color_red: #ff4e50;
   }
 }
 
-/*
-@media only screen and (min-width: 768px)
-.container .partners button {
-    height: 40px;
-    width: 192px;
-    background: #FFFFFF;
-    border-radius: 20px;
-}
-
-.container .partners button {
-    border: 2px solid #ff4e50;
-    color: #ff4e50;
-    height: 40px;
-    width: 280px;
-    background: #FFFFFF;
-    border-radius: 20px;
-    margin-top: 29px;
-    margin-right: 3px;
-}*/
 @mixin roboto-font($size) {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -87,4 +68,14 @@ $color_red: #ff4e50;
 @mixin roboto-font-white($size) {
   @include roboto-font ($size);
   color: white;
+}
+
+@mixin carousel($width, $height) {
+  width: $width;
+  height: $height;
+
+  ul > li > img {
+    width: $width;
+    height: $height;
+  }
 }
