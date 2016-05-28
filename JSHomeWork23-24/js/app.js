@@ -15,9 +15,9 @@ requirejs.config({
 
 require(
     [
-        'Model',
-        'View',
-        'Controller'
+        'Wodel',
+        'Wiew',
+        'Wontroller'
     ],
 
     function (Model, View, Controller) {
