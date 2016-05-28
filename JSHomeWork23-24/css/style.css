@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #ffffff;
+    font-family: "Malgun Gothic", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.container {
+    width: 700px;
+    min-height: 400px;
+    margin: 20px auto;
+}
+
+h1 {
+    color: #4B6B5E;
+    text-align: center;
+}
+
+.item-title {
+    display: inline-block;
+    width: 25%;
+    height: 180px;
+    border: 1px solid #4B6B5E;
+    background: #4B6B5E;
+    margin-right: 10px;
+    margin-left: 10px;
+    list-style: none;
+    vertical-align: top;
+    padding: 10px;
+    position: relative;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+.item-button {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.item-edit, .item-delete, .item-add {
+    color: #4B6B5E;
+    font-family: "Malgun Gothic", sans-serif;
+    background: #ffffff;
+    border-radius: 5px;
+    border: 2px solid #7BAA80;
+    width: 80px;
+    height: 35px;
+    line-height: 1px;
+    text-align: center;
+    font-size: 18px;
+    vertical-align: bottom;
+
+}
+
+.item-edit:hover {
+    border-radius: 5px;
+    border: 2px solid #7BAA80;
+}
+
+.item-value {
+    width: 250px;
+    color: #4B6B5E;
+    border: 2px solid #7BAA80;
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    background: #ffffff;
+}
+
+input:hover {
+    border: 2px solid #4B6B5E;
+    border-radius: 5px;
+    background: #ffffff;
+
+}
+
+.item-add {
+    width: 90px;
+}
+
+.controlls {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    line-height: 20px;
+}
