@@ -557,9 +557,21 @@ figure {
   height: 240px;
 }
 
-.container .works .works__item .works__carousel ul > li > img {
+.container .works .works__item .works__carousel ul > li > div {
   width: 301px;
   height: 240px;
+}
+
+.container .works .works__item .works__carousel .works__img1 {
+  background-image: url("../images/howitwork1.png");
+}
+
+.container .works .works__item .works__carousel .works__img2 {
+  background-image: url("../images/howitwork2.png");
+}
+
+.container .works .works__item .works__carousel .works__img3 {
+  background-image: url("../images/howitwork3.png");
 }
 
 .container .works .works__item .works__arrow {
@@ -689,13 +701,13 @@ figure {
 }
 
 .container .ideas .ideas__item figcaption {
-  top: 50%;
-  left: 50%;
-  font-size: 22px;
   position: absolute;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
-  width: 300px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  line-height: 120px;
 }
 
 .container .ideas .ideas__item--3 figcaption {
@@ -860,9 +872,18 @@ figure {
     width: 236px;
     height: 401px;
   }
-  .container .works .works__item .works__carousel ul > li > img {
+  .container .works .works__item .works__carousel ul > li > div {
     width: 236px;
     height: 401px;
+  }
+  .container .works .works__item .works__carousel .works__img1 {
+    background-image: url("../images/tablet/howitwork1.png");
+  }
+  .container .works .works__item .works__carousel .works__img2 {
+    background-image: url("../images/tablet/howitwork2.png");
+  }
+  .container .works .works__item .works__carousel .works__img3 {
+    background-image: url("../images/tablet/howitwork3.png");
   }
   .container .works .works__item .works__arrow {
     display: block;
@@ -939,6 +960,9 @@ figure {
   }
   .container .ideas .ideas__item--big img {
     width: 492px;
+  }
+  .container .ideas .ideas__item figcaption {
+    line-height: 311px;
   }
   .container .search .search__title {
     margin-top: 70px;
@@ -1030,9 +1054,18 @@ figure {
     width: 300px;
     height: 400px;
   }
-  .container .works .works__item .works__carousel ul > li > img {
+  .container .works .works__item .works__carousel ul > li > div {
     width: 300px;
     height: 400px;
+  }
+  .container .works .works__item .works__carousel .works__img1 {
+    background-image: url("../images/desktop/howitwork1.png");
+  }
+  .container .works .works__item .works__carousel .works__img2 {
+    background-image: url("../images/desktop/howitwork2.png");
+  }
+  .container .works .works__item .works__carousel .works__img3 {
+    background-image: url("../images/desktop/howitwork3.png");
   }
   .container .works .works__item .works__arrow {
     top: 155px;
@@ -1090,6 +1123,9 @@ figure {
   }
   .container .ideas .ideas__item--big img {
     width: 620px;
+  }
+  .container .ideas .ideas__item figcaption {
+    line-height: 310px;
   }
   .container .search .search__title {
     margin-top: 75px;

@@ -29,7 +29,7 @@ $(function () {
 
     function getImg(s) {
 
-        $.get('https://pixabay.com/api/', {
+        $.get('http://pixabay.com/api/', {
             'key':'2634395-4f65232da7da7981f8a40c72d',
             'q': s,
             'min_width':320,

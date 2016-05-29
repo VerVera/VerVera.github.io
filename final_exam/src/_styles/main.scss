@@ -113,7 +113,16 @@ figure {
       background: $color_grey_dark;
 
       .works__carousel {
-        @include carousel($width, $height)
+        @include carousel($width, $height);
+        .works__img1 {
+          background-image: url("../images/howitwork1.png");
+        }
+        .works__img2 {
+          background-image: url("../images/howitwork2.png");
+        }
+        .works__img3 {
+          background-image: url("../images/howitwork3.png");
+        }
       }
       .works__arrow {
         display: none;
@@ -216,12 +225,13 @@ figure {
       }
 
       figcaption {
-        top: 50%;
-        left: 50%;
-        font-size: 22px;
         position: absolute;
-        transform: translateX(-50%) translateY(-50%);
-        width: 300px;
+        top:0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        text-align: center;
+        line-height: 120px;
       }
 
       &--3 {
@@ -384,7 +394,16 @@ figure {
         margin-right: 16px;
 
         .works__carousel {
-          @include carousel($width, $height)
+          @include carousel($width, $height);
+          .works__img1 {
+            background-image: url("../images/tablet/howitwork1.png");
+          }
+          .works__img2 {
+            background-image: url("../images/tablet/howitwork2.png");
+          }
+          .works__img3 {
+            background-image: url("../images/tablet/howitwork3.png");
+          }
         }
 
         .works__arrow {
@@ -486,6 +505,10 @@ figure {
           img {
             width: 492px;
           }
+        }
+
+        figcaption {
+          line-height: 311px;
         }
 
 
@@ -597,7 +620,16 @@ figure {
         height: $height;
 
         .works__carousel {
-          @include carousel($width, $height)
+          @include carousel($width, $height);
+          .works__img1 {
+            background-image: url("../images/desktop/howitwork1.png");
+          }
+          .works__img2 {
+            background-image: url("../images/desktop/howitwork2.png");
+          }
+          .works__img3 {
+            background-image: url("../images/desktop/howitwork3.png");
+          }
         }
 
         .works__arrow {
@@ -682,6 +714,11 @@ figure {
             width: 620px;
           }
         }
+
+        figcaption {
+          line-height: 310px;
+        }
+
       }
     }
 

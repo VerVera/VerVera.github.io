@@ -73,8 +73,7 @@ $color_red: #ff4e50;
 @mixin carousel($width, $height) {
   width: $width;
   height: $height;
-
-  ul > li > img {
+  ul > li > div {
     width: $width;
     height: $height;
   }
