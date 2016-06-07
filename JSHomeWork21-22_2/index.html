@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSHomeWork21-22_2</title>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+<script type="text/html" id="template">
+    <h2><%=title%></h2>
+
+    <% var b = 0; for ( var i = 0; i < questions.length; i++ ) { %>
+    <h4><%=questions[i].name%></h4>
+    <% for ( var k = 0; k < questions[i].options.length; k++ ) { b++; %>
+    <p><input <%= questions[i].answer==k?'data-value="yes"':''%> type="checkbox" id="<%='check' + b %>"><label
+            for="<%='check' + b %>"><%=questions[i].options[k]%></label><br></p>
+    <% } %>
+    <% } %>
+
+</script>
+<div class="container">
+    <div class="bg-warning wrapper"></div>
+    <div id="popup_name" class="popup_block">
+        <p></p>
+        <button class="popup_button">OK!</button>
+    </div>
+
+    <button id="result_button" class="btn-primary center-block">Проверить мои результаты</button>
+</div>
+<script src="js/template.js"></script>
+<script src="js/src/script.js"></script>
+
+</body>
+
+</html>
