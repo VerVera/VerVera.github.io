@@ -10,7 +10,7 @@
     padding: 50px;
 }
 
-.hhh h2{
+.hhh h2 {
     padding-top: 61px;
     margin-bottom: 20px;
 }
@@ -20,12 +20,14 @@
     font-size: 24px;
     margin-bottom: 25px;
 }
+
 .btn-default {
     margin-right: 10px;
     background: none;
     border-color: #8D8A8A;
     color: #8D8A8A;
 }
+
 .btn-default:hover {
     background: #00bc8c;
     border-color: #00bc8c;
@@ -35,6 +37,7 @@
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     background-color: #303030;
 }
+
 .navbar {
     margin-bottom: 0px;
 }

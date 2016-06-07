@@ -1,8 +1,10 @@
 /**
  * Created by koste on 01.06.2016.
  */
-var h_hght = 400; // высота шапки
-var h_mrg = 0;    // отступ когда шапка уже не видна
+
+//NAV FIXED
+var h_hght = 400;
+var h_mrg = 0;
 
 $(function(){
 
