@@ -73,7 +73,7 @@
 
 /* About Section */
 #about {
-    padding: 40px 0;
+    padding-top: 40px;
     background-color: rgba(141, 138, 138, 0.75);
     background-image: url("../img/achivements-bg.jpg");
     background-size: cover;
