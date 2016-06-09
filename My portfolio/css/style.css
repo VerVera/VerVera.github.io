@@ -60,7 +60,9 @@
     z-index: 1000;
     width: 100%;
 }
-
+.navbar-text {
+    margin-left: 10px;
+}
 .section-title.center hr {
     height: 4px;
     width: 70px;
@@ -153,7 +155,9 @@
 .hover-text a:hover {
     color: #00bc8c;
 }
-
+.img-responsive {
+    width: 100%;
+}
 a.view {
     line-height: 90px;
     font-size: 13px;
@@ -169,7 +173,7 @@ span {
     margin: 0 auto;
     color: #ffffff;
     background: rgba(0, 0, 0, 0.66);
-    padding: 25% 0;
+    padding: 15% 0;
     height: 100%;
     width: 100%;
     opacity: 0;

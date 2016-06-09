@@ -24,5 +24,10 @@ $(function(){
             elem.css('top', h_mrg);
         }
     });
+    $("#bs-example-navbar-collapse-2").on("click", "a", function(event){
+        $('#bs-example-navbar-collapse-2').collapse('hide');
+       // event.preventDefault();
+    });
 
 });
+
