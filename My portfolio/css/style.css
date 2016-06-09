@@ -5,7 +5,7 @@
 /* First Section*/
 .hhh {
     height: 400px;
-    background: url("../img/back2.jpg") no-repeat;
+    background: url("../img/back2-min.png") no-repeat;
     background-size: cover;
     padding: 50px;
 }
@@ -76,7 +76,7 @@
 #about {
     padding-top: 40px;
     background-color: rgba(141, 138, 138, 0.75);
-    background-image: url("../img/achivements-bg.jpg");
+    background-image: url("../img/achivements-bg-min.png");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -244,7 +244,7 @@ span {
 /* Skills Section */
 #skills {
     padding: 80px 0;
-    background: url("../img/skills-bg.jpg");
+    background: url("../img/skills-bg-min.png");
     background-size: cover;
     background-attachment: fixed;
 
