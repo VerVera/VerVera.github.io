@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* First Section*/
+.hhh {
+    height: 400px;
+    background: url("../img/back2-min.png") no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+.hhh h2 {
+    padding-top: 61px;
+    margin-bottom: 20px;
+}
+
+.hhh p {
+    color: #8D8A8A;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.btn-default {
+    margin-right: 10px;
+    background: none;
+    border-color: #8D8A8A;
+    color: #8D8A8A;
+}
+
+.btn-default:hover {
+    background: #00bc8c;
+    border-color: #00bc8c;
+}
+
+/* Nav Section */
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    background-color: #303030;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #8D8A8A;
+}
+
+.navbar-inverse {
+    background-color: #303030;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #00bc8c;
+}
+
+#top_nav {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+.navbar-text {
+    margin-left: 10px;
+}
+.section-title.center hr {
+    height: 4px;
+    width: 70px;
+    text-align: center;
+    position: relative;
+    background: #00bc8c;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border: 0;
+}
+
+/* About Section */
+#about {
+    padding-top: 40px;
+    background-color: rgba(141, 138, 138, 0.75);
+    background-image: url("../img/achivements-bg-min.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#about .about-text {
+    margin-left: 10px;
+}
+
+#about p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    line-height: 36.8px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#about img {
+    border-radius: 100px;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #303030;
+    padding: 40px 0;
+}
+
+.portfolio-items {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#portfolio p {
+    color: #8D8A8A;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    letter-spacing: 0.4px;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.portfolio-item:hover {
+    margin-bottom: 30px;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.portfolio-item .hover-bg {
+    height: 290px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hover-text a {
+    color: #ffffff;
+}
+
+.hover-text a:hover {
+    color: #00bc8c;
+}
+.img-responsive {
+    width: 100%;
+}
+a.view {
+    line-height: 90px;
+    font-size: 13px;
+}
+
+span {
+    font-size: 13px;
+}
+
+.hover-bg .hover-text {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.66);
+    padding: 15% 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.hover-bg .hover-text > h4 {
+
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    transition: all 0.3s;
+}
+
+.hover-bg:hover .hover-text > h4 {
+    opacity: 1;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.hover-bg .hover-text > i {
+    opacity: 0;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    transition: all 0.3s;
+}
+
+.hover-bg:hover .hover-text > i {
+    opacity: 1;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+.hover-bg:hover .hover-text {
+    opacity: 1;
+}
+
+.hover-bg .hover-text > h4 {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    transition: all 0.3s;
+}
+
+.hover-bg:hover .hover-text > h4 {
+    opacity: 1;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.hover-bg .hover-text > i {
+    opacity: 0;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    transition: all 0.3s;
+}
+
+.hover-bg:hover .hover-text > i {
+    opacity: 1;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+.hover-bg:hover .hover-text {
+    opacity: 1;
+}
+
+/* Skills Section */
+#skills {
+    padding: 80px 0;
+    background: url("../img/skills-bg-min.png");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#skills p {
+    color: #8D8A8A;
+}
+
+#skills .skill {
+    margin-bottom: 40px;
+
+}
+
+#skills .skill h4 {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.progress {
+    margin-bottom: 10px;
+    margin-right: 20px;
+    height: 30px;
+}
+
+.percent {
+    display: inline-block;
+    font-size: 21px;
+    color: #ffffff;
+    line-height: 25px;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.percent:after {
+    content: '%';
+    margin-left: 0.1em;
+    font-size: .8em;
+}
+
+/* Contact Section */
+#contact {
+    padding: 80px 0 40px 0;
+    color: #f4f5f6;
+    background: url("../img/contact-bg2-min.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contact span {
+    color: #00bc8c;
+}
+
+#footer {
+    background-color: #303030;
+    color: #ddd;
+    padding: 30px 0 25px 0;
+}
+
+#footer p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.network {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.network a {
+
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.network-facebook {
+
+    height: 31px;
+    width: 28px;
+    background: url("../img/socialWhite.png") no-repeat;
+}
+
+.network-facebook:hover {
+    background: url("../img/socialGreen.png") no-repeat;
+}
+
+.network-linkedin {
+    height: 31px;
+    width: 41px;
+    background: url("../img/socialWhite.png") -22px 0;
+}
+
+.network-linkedin:hover {
+    background: url("../img/socialGreen.png") -22px 0;
+}
+
+.network-skype {
+    height: 31px;
+    width: 41px;
+    background: url("../img/socialWhite.png") -60px 0;
+}
+
+.network-skype:hover {
+    background: url("../img/socialGreen.png") -60px 0;
+}
+
+.network-github {
+    height: 31px;
+    width: 32px;
+    background: url("../img/socialWhite.png") -102px 0;
+}
+
+.network-github:hover {
+    background: url("../img/socialGreen.png") -102px 0;
+}
+
+
+
+
+
