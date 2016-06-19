@@ -17,7 +17,6 @@ $(function(){
 
     $(window).scroll(function(){
         top = $(this).scrollTop();
-
         if (top+h_mrg < h_hght) {
             elem.css('top', (h_hght-top));
         } else {
@@ -28,6 +27,12 @@ $(function(){
         $('#bs-example-navbar-collapse-2').collapse('hide');
        // event.preventDefault();
     });
-
+    //
+    $("#nav_item").on("click","a", function (event) {
+        event.preventDefault();
+        var name = $(this).attr('href').substring(1),
+            top = $('[name="'+name+'"]').offset().top;
+        $('body,html').animate({scrollTop: top}, 700);
+    });
 });
 
