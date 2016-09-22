@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+    width: 1160px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 14px;
+}
+
+.buttons {
+    text-align: right;
+}
+
+.btn_print {
+    width: 75px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.btn_excel {
+    width: 75px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.btn_pdf {
+    width: 75px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.btn_add {
+    width: 75px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.btn_add:hover {
+    opacity: 0.75;
+}
+
+.btn_excel:hover {
+    opacity: 0.75;
+}
+
+.btn_pdf:hover {
+    opacity: 0.75;
+}
+
+.btn_print:hover {
+    opacity: 0.75;
+}
+
+table {
+    border-collapse: collapse;
+    width: 600px;
+    margin: 10px auto;
+}
+
+th, td {
+    padding: 10px;
+    width: 150px;
+
+}
+
+tr {
+    page-break-inside: avoid;
+}
+
+.modal_window {
+    display: none;
+    height: 300px;
+    padding: 20px;
+    width: 300px;
+    margin-left: 30%;
+    position: absolute;
+    font-size: 16px;
+    background: #607d8b;
+    -webkit-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.22), 0px 19px 60px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.22), 0px 19px 60px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.22), 0px 19px 60px rgba(0, 0, 0, 0.3);
+    color: #cfd8dc;
+    text-align: center;
+}
+
+.modal_window > input {
+    padding: 5px;
+}
+
+.modal_window > p {
+    padding: 5px;
+}
+
+.btn_ok {
+    width: 75px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+    color: #607d8b;
+    margin-top: 10px;
+}
+
+.btn_ok:hover {
+    opacity: 0.75;
+}
+
+.pager > a {
+    display: inline-block;
+    padding: 12px;
+    text-decoration: none;
+    border: 1px solid gray;
+    background-color: gray;
+    color: #ffffff;
+}
+
+a:hover {
+    opacity: 0.75;
+}
+
+a:active {
+    background: #000000;
+}
+
+@media print {
+    .buttons, .pager {
+        display: none;
+    }
+
+    table {
+        width: 80%;
+    }
+}

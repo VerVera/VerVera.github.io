@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dinamic_table</title>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/script.js"></script>
+    <script src="js/tableToExcel.js"></script>
+</head>
+<body>
+<div class="container">
+
+    <div class="buttons">
+        <button class="btn_add">ADD</button>
+        <button class="btn_print">PRINT</button>
+        <button class="btn_excel">EXCEL</button>
+        <button class="btn_pdf">PDF</button>
+
+    </div>
+    <div class="modal_window">
+        <p>ID</p><input id="input1" type="text" name="ID" placeholder="ID"><br>
+        <p>first_name</p><input id="input2" type="text" name="ID" placeholder="first_name"><br>
+        <p>price (USD)</p><input id="input3" type="text" name="ID" placeholder="price (USD)"><br>
+        <p>price (UAH)</p><input id="input4" type="text" name="ID" placeholder="price (UAH)"><br>
+        <button class="btn_ok">OK</button>
+    </div>
+
+    <table id="headTable">
+        <tr class="name_table">
+            <td colspan="4" align="center"><b>Отчет по продажам чашек</b></td>
+        </tr>
+        <tr>
+            <td colspan="4" align="center"><b>за 25.03.2016</b></td>
+        </tr>
+    </table>
+    <table id="dataTable" style="border: 1px solid black;" border="1px" cellpadding="4" cellspacing="0">
+        <tbody>
+        <tr>
+            <th style="border: 1px solid black;" border="1px" rowspan="2">id</th>
+            <th style="border: 1px solid black;" border="1px" rowspan="2">first_name</th>
+            <th style="border: 1px solid black;" border="1px" colspan="2">price</th>
+        </tr>
+        <tr id="second">
+            <th style="border: 1px solid black;" border="1px">price (USD)</th>
+            <th style="border: 1px solid black;" border="1px">price (UAH)</th>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;" border="1px" colspan="2">Общее</td>
+            <td style="border: 1px solid black;" border="1px" id="total_USD"></td>
+            <td style="border: 1px solid black;" border="1px" id="total_UAH"></td>
+        </tr>
+        </tbody>
+    </table>
+    <table id="footerTable">
+        <tr>
+            <td colspan="2">Продавец</td>
+            <td>_______________________________</td>
+            <td>_______________________</td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td>(ФИО)</td>
+            <td>(Подпись)</td>
+        </tr>
+    </table>
+    </table>
+    <div class="pager">
+        <a href="#" class="page1"><<</a>
+        <a href="#" class="page2">>></a>
+
+    </div>
+</div>
+
+
+</body>
+
+</html>
