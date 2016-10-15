@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Home page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+<div class="container-fluid">
+    <a href="#top"></a>
+    <div class="jumbotron">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                       <img class="logo" src="img/logo.png">
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="visible-xs">
+                            <div class="search">
+                                <div><input type="text">
+                                    <button type="submit">Go</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">RESEARCH</a></li>
+                        <li><a class="dropdown" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false" href="#">INVESTMENT APPROACH</a>
+
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Asset Allocation</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="second_page.html">Fund Selection</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">RESEARCH ALLIANCE</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                        <li class="hidden-xs"><a data-toggle="tooltip" data-placement="top" title="SEARCH" href="#"><img
+                                src="img/icon_search.png"></a></li>
+                        <li>
+                            <button type="button" class="btn btn-simple">DASHBOARD</button>
+                        </li>
+                        <li><a data-toggle="tooltip" data-placement="top" title="LOGOUT" href="#"><img
+                                src="img/icon_logout.png"></a></li>
+
+
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <div class="b1">
+            <h1>RESEARCH PORTFOLIOS COMMUNICATIONS</h1>
+            <p class="jumbotron-text">We build compelling Investment strategies and client communications so you have
+                the
+                time to build your business.</p>
+            <button class="btn btn-primary">LEARN MORE</button>
+        </div>
+
+    </div>
+    <section>
+        <div>
+            <h1>FEATURED RESEARCH</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-1 hidden-xs">
+                <img class="left" src="img/left_arrow.png">
+            </div>
+            <div class="col-sm-5">
+                <img src="img/section_2.png">
+            </div>
+            <div class="col-sm-5">
+                <h2>BLACKROCK GLOBAL INVESTMENT OUTLOOK</h2>
+                <hr>
+                <p>Our due diligence process is too detailed and complex to
+                    lend itself well to a simple “flow chart,” but this is what we had in mind when we
+                    created the following presentation. It is designed to provide an in-depth and generally
+                    sequential examination of our due diligence process. The numbered items below make some
+                    prerequisite points about our process and its goals. Clicking the “next” button then takes
+                    you in to the first.</p>
+                <button class="btn btn-default">READ MORE</button>
+            </div>
+            <div class="col-sm-1 hidden-xs">
+                <img class="right" src="img/right_arrow.png">
+            </div>
+        </div>
+    </section>
+    <div class="line">
+        <p>Experience a sample of what membership provides.
+            <a href="#">VIEW AVAILABLE RESEARCH
+                <img src="img/arrow_right.png">
+            </a>
+        </p>
+    </div>
+    <article>
+        <div class="row">
+            <div class="col-sm-6 left-article">
+                <h3>PORTFOLIOS</h3>
+                <p>Thorough, fundamental asset class and manager
+                    research drives our investment strategy.</p>
+                <a href="#">Read more ></a>
+            </div>
+            <div class="col-sm-6 right-article">
+                <h3>COMMUNICATIONS</h3>
+                <p>Understand the rationale behind every investment
+                    decision Litman Gregory makes</p>
+                <a href="#">Read more ></a>
+            </div>
+        </div>
+    </article>
+    <div class="form-horizontal">
+        <h3>BE THE FIRST TO KNOW</h3>
+        <p>Want to keep up with our latest news and information? Enter your information below to be added to our mailing
+            list.</p>
+        <div class="form">
+            <form class="form-inline">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="exampleInputName1" placeholder="First Name">
+                    <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Last Name">
+                    <input type="email" class=" form-control" id="exampleInputEmail3" placeholder="Email">
+                    <button type="submit" class="btn btn-success">SUBMIT</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col-sm-4">
+                <div>
+                    <h3>LITMAN GREGORY COMPANIES</h3>
+                    <p>Litman Gregory Asset Management<span> > </span></p>
+                    <p>Litman Gregory Portfolio Strategies<span> > </span></p>
+                    <p>Litman Gregory Masters Funds&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> > </span></p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div>
+                    <h3>ADVISORINTELLIGENCE</h3>
+                    <p>4 Orinda Way Suite</p>
+                    <p>200-D Orinda<a><img src="img/icon_twitter.png"></a></p>
+                    <p>CA 94563&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a><img src="img/icon-linkedin.png"></a>
+                    </p>
+                    <p>(925) 254-8999</p>
+                </div>
+            </div>
+            <div class="col-sm-4 column-contact">
+                <div><h3>JOIN OUR COMMUNITY</h3>
+                    <button type="submit" class="btn btn-contact">CONTACT US<span> > </span></button>
+                </div>
+            </div>
+        </div>
+        <div class="row end-footer">
+            <p class="col-md-8 col-xs-12 footer-left">© Copyright 2002-2016, Litman Gregory Analytics, LLC | Privacy
+                & Disclosure | Terms & Conditions | Reprints | Contact Us </p>
+            <p class="col-md-4 col-xs-12 footer-right">built by Vijish Kumar</p>
+        </div>
+    </footer>
+</div>
+<a class="arrow-top" href="#top"> <img src="img/arrow_up.png">
+</a>
+</body>
+</html>
