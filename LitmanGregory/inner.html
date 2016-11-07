@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/html">
 <head>
-    <title>Second page</title>
+    <title>Advisor Intelligence - Fund Selection</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
@@ -37,24 +37,42 @@
 
                     <ul class="nav navbar-nav navbar-right">
                         <li class="visible-xs"><div class="search"><div><input type="text"><button type="submit">Go</button></div></div></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">RESEARCH</a></li>
-                        <li class="open"><a class="dropdown" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                        <li class="visible-xs"><a href="#">LOGIN</a></li>
+
+                        <li class="hidden-xs"><a href="#">ABOUT</a></li>
+                        <li class="visible-xs"><a  class="dropdown" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                                   aria-haspopup="true" aria-expanded="false" href="#">About</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Case studies</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="hidden-xs"><a href="#">RESEARCH</a></li>
+                        <li class="visible-xs"><a href="#">Research</a></li>
+
+                        <li class="open"><a class="dropdown dropdown-toggle" data-toggle="dropdown" role="button"
                                aria-haspopup="true" aria-expanded="false" href="#">INVESTMENT APPROACH</a>
 
                             <ul class="dropdown-menu">
                                 <li><a href="#">Asset Allocation</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li><a href="second_page.html">Fund Selection</a></li>
+                                <li><a href="inner.html" class="active">Fund Selection</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">RESEARCH ALLIANCE</a></li>
-                        <li><a href="#">CONTACT US</a></li>
-                        <li class="hidden-xs"><a data-toggle="tooltip" data-placement="top" title="SEARCH" href="#"><img src="img/icon_search.png"></a></li>
-                        <li>
-                            <button type="button" class="btn btn-simple">DASHBOARD</button>
+                        <li class="hidden-xs"><a href="#">RESEARCH ALLIANCE</a></li>
+                        <li class="visible-xs"><a href="#">Research Alliance</a></li>
+
+                        <li class="hidden-xs"><a href="#">CONTACT US</a></li>
+                        <li class="visible-xs"><a href="#">Contact Us</a></li>
+
+                        <li class="hidden-xs"><a data-toggle="tooltip" data-placement="top" title="SEARCH" href="#"><img
+                                src="img/icon_search.png"></a></li>
+                        <li class="hidden-xs">
+                            <button type="button" class="btn btn-simple btn-simple--second">LOGIN</button>
                         </li>
-                        <li><a data-toggle="tooltip" data-placement="top" title="LOGOUT" href="#"><img src="img/icon_logout.png"></a></li>
+                        <li class="visible-xs"><a href="#">Reprints</a></li>
+                        <li class="visible-xs"><a href="#">Privacy & Disclosure</a></li>
+                        <li class="visible-xs"><a href="#">Terms & Conditions</a></li>
 
 
                     </ul>
@@ -114,13 +132,14 @@
                         </li>
                     </ol>
                     <span>How We Allocate Resources</span>
-                    <p>Our research priorities are a function of the high-priority issues and projects that come up (see
+                    <p id="content2">Our research priorities are a function of the high-priority issues and projects that come up (see
                         bullet points below) and the ongoing monitoring we do for all of our Recommended funds (see
                         bullet points below left).</p>
                     <p>Ideas for new funds to research come from:</p>
                     <ul class="first-list">
                         <li>Conducting performance screens using fund and separate account databases</li>
                         <li>Following up on new or existing funds from families we already know and respect</li>
+                        </ul>
                         <ul class="second-list">
                             <li>Researching new funds for a tactical allocation we want to make in the model
                                 portfolios
@@ -131,7 +150,7 @@
                             <li>Talking with fund managers we know and respect to</li>
                             <li>learn about other managers they regard highly</li>
                         </ul>
-                    </ul>
+
                     <p>After prioritizing research projects, each fund is assigned a primary and a secondary analyst who
                         participate in the calls and the site visit.</p>
                 </div>
@@ -162,14 +181,15 @@
             <div class="col-sm-3 col-sm-pull-9  first">
                 <div>
                     <h5>INVESTMENT APPROACH</h5>
-                    <p><img src="img/arrow_second.png"><a href="#">Asset Allocation Fund Selection</a></p>
-                    <p><img src="img/arrow_second.png"><a class="active" href="#">Fund Selection</a></p>
+                    <p class="text-uppercase"><img src="img/arrow_second.png"><a href="#">Asset Allocation</a></p>
+                    <p class="text-uppercase"><img src="img/arrow_second.png"><a class="active" href="#">Fund Selection</a></p>
                     <hr>
                     <h5>RESEARCH ALLIANCE</h5>
                     <a href="#"><img class="first-img" src="img/banner_left.png"></a>
                     <hr>
                     <h5>JOIN OUR COMMUNITY</h5>
-                    <button type="submit" class="btn btn-contact">CONTACT US<span> > </span></button>
+                    <div>
+                    <button type="submit" class="btn btn-contact">CONTACT US<span> > </span></button></div>
                     <hr>
                     <h5>FEATURED RESEARCH</h5>
                     <a href="#"><img class="first-img" src="img/banner_left_man.png"></a>
@@ -203,7 +223,7 @@
         <div class="row">
 
             <div class="col-sm-4">
-                <div>
+                <div class="col1">
                     <h3>LITMAN GREGORY COMPANIES</h3>
                     <p>Litman Gregory Asset Management<span> > </span></p>
                     <p>Litman Gregory Portfolio Strategies<span> > </span></p>
@@ -212,7 +232,7 @@
 
             </div>
             <div class="col-sm-4">
-                <div>
+                <div class="col2">
                     <h3>ADVISORINTELLIGENCE</h3>
                     <p>4 Orinda Way Suite</p>
                     <p>200-D Orinda<a><img src="img/icon_twitter.png"></a></p>
@@ -223,8 +243,10 @@
 
             </div>
             <div class="col-sm-4 column-contact">
-                <div><h3>JOIN OUR COMMUNITY</h3>
-                    <button type="submit" class="btn btn-contact">CONTACT US<span> > </span></button>
+                <div class="col3"><h3>JOIN OUR COMMUNITY</h3>
+                    <button type="submit" class="hidden-xs btn btn-contact btn-contact--footer">CONTACT US<span> > </span></button>
+                    <button type="submit" class="visible-xs btn btn-contact btn-contact--footer">REQUEST MORE INFORMATION<span> > </span></button>
+
                 </div>
             </div>
         </div>
