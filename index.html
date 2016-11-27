@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
 
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 </head>
 <body>
 <div class="hhh">
@@ -30,7 +30,7 @@
         <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-2" aria-expanded="true">
             <ul class="nav navbar-nav">
             </ul>
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right" id="nav_item">
                 <li><a href="#aboutMe" >ABOUT</a></li>
                 <li><a href="#myportfolio">PORTFOLIO</a></li>
                 <li><a href="#myskills">SKILLS</a></li>
@@ -75,11 +75,12 @@
         </div>
     </div>
     <div class="row portfolio-items">
-        <div class="portfolio-item col-md-3 col-sm-2 "></div>
-        <div class="portfolio-item col-md-3 col-sm-4">
+        <div class="portfolio-item col-md-1 col-sm-2 "></div>
+
+        <div class="portfolio-item col-md-3 col-sm-3">
             <div class="hover-bg">
                 <div class="hover-text">
-                    <a href="http://ververa.github.io/final_exam/build/" rel="prettyPhoto">
+                    <a target="_blank" href="http://ververa.github.io/final_exam/build/" rel="prettyPhoto">
                         <h4>Mock-up for the site 'HOLIDAY'</h4>
                     </a>
                         <span>Used technologies:<br> HTML5, CSS (SCSS), jQuery, BEM,<br>
@@ -89,16 +90,16 @@
                             NPM, Gulp</span>
                     <div class="clearfix"></div>
                     <i class="fa fa-search"></i>
-                    <a class="view" href="https://github.com/VerVera/VerVera.github.io/tree/master/final_exam">View
+                    <a class="view" target="_blank" href="https://github.com/VerVera/VerVera.github.io/tree/master/final_exam">View
                         the code</a>
                 </div>
                 <img src="./img/project2-min.png" class="img-responsive" alt="Project 'Holiday'">
             </div>
         </div>
-        <div class="portfolio-item  col-md-3 col-sm-4 ">
+        <div class="portfolio-item  col-md-3 col-sm-3 ">
             <div class="hover-bg">
                 <div class="hover-text">
-                    <a href="http://ververa.github.io/JSHomeWork19-20/" rel="prettyPhoto">
+                    <a target="_blank" href="http://ververa.github.io/JSHomeWork19-20/" rel="prettyPhoto">
                         <h4>Mock-up for the site 'BUILD'</h4>
                     </a>
                     <small>Used technologies:<br> HTML5, CSS (SCSS), jQuery plugin, BEM,
@@ -106,15 +107,31 @@
                     </small>
                     <div class="clearfix"></div>
                     <i class="fa fa-search"></i>
-                    <a class="view" href="https://github.com/VerVera/VerVera.github.io/tree/master/JSHomeWork19-20">View
+                    <a class="view" target="_blank" href="https://github.com/VerVera/VerVera.github.io/tree/master/JSHomeWork19-20">View
                         the code</a>
                 </div>
                 <img src="./img/project1-min.png" class="img-responsive" alt="Project 'Build'">
             </div>
         </div>
-        <div class="portfolio-item col-md-3 col-sm-1"></div>
+
+        <div class="portfolio-item  col-md-3 col-sm-3 ">
+            <div class="hover-bg">
+                <div class="hover-text">
+                    <a target="_blank" href="http://ververa.github.io/floatroom%20newsletter/floatroom/" rel="prettyPhoto">
+                        <h4>Newsletter "Floatroom"</h4>
+                    </a>
+                    <small>Used technologies:<br> HTML5, CSS, Responsive design for tablet and mobile, Outlook, Chrome
+                    </small>
+                    <div class="clearfix"></div>
+                    <i class="fa fa-search"></i>
+                    <a class="view" target="_blank" href="https://github.com/VerVera/VerVera.github.io/tree/master/floatroom%20newsletter/floatroom">View
+                        the code</a>
+                </div>
+                <img src="./img/project3-min.png" class="img-responsive" alt="Newsletter 'Floatroom'">
+            </div>
+        </div>
+
     </div>
-</div>
 </div>
 <a name="myskills"></a>
 <div id="skills">
@@ -208,10 +225,11 @@
         </div>
     </div>
 </div>
-<script async src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
 <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
         integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
         crossorigin="anonymous"></script>
 <script src="js/script.js"></script>
+
 </body>
 </html>
