@@ -61,7 +61,7 @@
 .goToTop {
     position: fixed;
     top: 0;
-    height: 70px;
+    height: 60px;
     z-index: 1;
     width: 100%;
 }
