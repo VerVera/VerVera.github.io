@@ -35,4 +35,7 @@ $(document).ready(function(){
     var navHeight = $("#top_nav").height();
     ($(window).scrollTop() > navHeight) ? $('nav').addClass('goToTop') : $('nav').removeClass('goToTop');
   });
+  $("#bs-example-navbar-collapse-2").on("click", "a", function(event) {
+    $('#bs-example-navbar-collapse-2').collapse('hide');
+  });
 });
