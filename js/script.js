@@ -3,7 +3,7 @@
  */
 
 //NAV FIXED
-var h_hght = 400;
+/*var h_hght = 400;
 var h_mrg = 0;
 
 $(function(){
@@ -29,5 +29,10 @@ $(function(){
        // event.preventDefault();
     });
 
+});*/
+$(document).ready(function(){
+  $(window).bind('scroll', function() {
+    var navHeight = $("#top_nav").height();
+    ($(window).scrollTop() > navHeight) ? $('nav').addClass('goToTop') : $('nav').removeClass('goToTop');
+  });
 });
-
